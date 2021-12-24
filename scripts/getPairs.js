@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url';
 const dir = dirname(fileURLToPath(import.meta.url));//eslint-disable-line
 import { giga } from '../env.js'
 
-
+const tag = process.argv[2].trim()
 // VBD - made
 // VBG - using
 // VBN -- participle
@@ -19,11 +19,12 @@ import { giga } from '../env.js'
 // JJS
 // RBR
 // RBS
-const tag = 'JJR'
+// const tag = 'JJR'
+console.log(tag)
 
 // const ids = ['0004']
 let ids = []
-for (let i = 1; i <= 10; i += 1) {
+for (let i = 1; i <= 50; i += 1) {
   let str = String(i).padStart(4, '0')
   ids.push(str)
 }

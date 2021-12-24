@@ -5,7 +5,6 @@
   "undef": true,
   "-W138": true,
   "-W069": true,
-  "-E070": true,
   "globals": {
     "self": true
   }
