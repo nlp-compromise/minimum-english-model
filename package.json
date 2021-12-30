@@ -1,7 +1,7 @@
 {
   "name": "minimum-model",
   "description": "experimental compression of word conjugation models",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Spencer Kelly <spencermountain@gmail.com> (http://spencermounta.in)",
   "main": "./model/index.js",
   "module": "./model/index.js",

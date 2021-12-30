@@ -1,112 +1,37 @@
 export default {
   "rules": {
     "m": [
-      [
-        "er-term",
-        "er-term"
-      ]
+      ["er-term", "er-term"]
     ],
     "r": [
-      [
-        "rther",
-        "rther"
-      ],
-      [
-        "immer",
-        "im"
-      ],
-      [
-        "lder",
-        "ld"
-      ],
-      [
-        "ffer",
-        "ff"
-      ],
-      [
-        "ller",
-        "ll"
-      ],
-      [
-        "rmer",
-        "rm"
-      ],
-      [
-        "tter",
-        "t"
-      ],
-      [
-        "cer",
-        "ce"
-      ],
-      [
-        "der",
-        "d"
-      ],
-      [
-        "ger",
-        "g"
-      ],
-      [
-        "her",
-        "h"
-      ],
-      [
-        "ier",
-        "y"
-      ],
-      [
-        "ker",
-        "k"
-      ],
-      [
-        "ler",
-        "l"
-      ],
-      [
-        "ner",
-        "n"
-      ],
-      [
-        "per",
-        "p"
-      ],
-      [
-        "rer",
-        "r"
-      ],
-      [
-        "ser",
-        "se"
-      ],
-      [
-        "ter",
-        "t"
-      ],
-      [
-        "uer",
-        "ue"
-      ],
-      [
-        "ver",
-        "ve"
-      ],
-      [
-        "wer",
-        "w"
-      ]
+      ["rther", "rther"],
+      ["immer", "im"],
+      ["lder", "ld"],
+      ["ffer", "ff"],
+      ["ller", "ll"],
+      ["rmer", "rm"],
+      ["tter", "t"],
+      ["cer", "ce"],
+      ["der", "d"],
+      ["ger", "g"],
+      ["her", "h"],
+      ["ier", "y"],
+      ["ker", "k"],
+      ["ler", "l"],
+      ["ner", "n"],
+      ["per", "p"],
+      ["rer", "r"],
+      ["ser", "se"],
+      ["ter", "t"],
+      ["uer", "ue"],
+      ["ver", "ve"],
+      ["wer", "w"]
     ],
     "y": [
-      [
-        "ity",
-        "ity"
-      ]
+      ["ity", "ity"]
     ],
     "e": [
-      [
-        "e",
-        "e"
-      ]
+      ["e", "e"]
     ]
   },
   "exceptions": {
@@ -141,7 +66,6 @@ export default {
     "dryer": "dry",
     "calmer": "calm",
     "primer": "prime",
-    "higher-education": "higher-education",
     "number": "numb",
     "gamer": "game"
   }

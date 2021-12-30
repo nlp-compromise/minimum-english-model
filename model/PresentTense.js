@@ -1,154 +1,43 @@
 export default {
   "rules": {
     "s": [
-      [
-        "charges",
-        "charge"
-      ],
-      [
-        "harges",
-        "harge"
-      ],
-      [
-        "efines",
-        "efine"
-      ],
-      [
-        "venes",
-        "vene"
-      ],
-      [
-        "fines",
-        "fine"
-      ],
-      [
-        "rges",
-        "rge"
-      ],
-      [
-        "dies",
-        "dy"
-      ],
-      [
-        "lies",
-        "ly"
-      ],
-      [
-        "pies",
-        "py"
-      ],
-      [
-        "ties",
-        "ty"
-      ],
-      [
-        "ines",
-        "ine"
-      ],
-      [
-        "ases",
-        "ase"
-      ],
-      [
-        "uses",
-        "use"
-      ],
-      [
-        "axes",
-        "ax"
-      ],
-      [
-        "ges",
-        "ge"
-      ],
-      [
-        "hes",
-        "h"
-      ],
-      [
-        "ies",
-        "y"
-      ],
-      [
-        "nes",
-        "ne"
-      ],
-      [
-        "ses",
-        "se"
-      ],
-      [
-        "xes",
-        "x"
-      ],
-      [
-        "bs",
-        "b"
-      ],
-      [
-        "cs",
-        "c"
-      ],
-      [
-        "ds",
-        "d"
-      ],
-      [
-        "es",
-        "e"
-      ],
-      [
-        "fs",
-        "f"
-      ],
-      [
-        "gs",
-        "g"
-      ],
-      [
-        "hs",
-        "h"
-      ],
-      [
-        "ks",
-        "k"
-      ],
-      [
-        "ls",
-        "l"
-      ],
-      [
-        "ms",
-        "m"
-      ],
-      [
-        "ns",
-        "n"
-      ],
-      [
-        "os",
-        "o"
-      ],
-      [
-        "ps",
-        "p"
-      ],
-      [
-        "rs",
-        "r"
-      ],
-      [
-        "ts",
-        "t"
-      ],
-      [
-        "ws",
-        "w"
-      ],
-      [
-        "ys",
-        "y"
-      ]
+      ["charges", "charge"],
+      ["harges", "harge"],
+      ["efines", "efine"],
+      ["venes", "vene"],
+      ["fines", "fine"],
+      ["rges", "rge"],
+      ["dies", "dy"],
+      ["lies", "ly"],
+      ["pies", "py"],
+      ["ties", "ty"],
+      ["ines", "ine"],
+      ["ases", "ase"],
+      ["uses", "use"],
+      ["axes", "ax"],
+      ["ges", "ge"],
+      ["hes", "h"],
+      ["ies", "y"],
+      ["nes", "ne"],
+      ["ses", "se"],
+      ["xes", "x"],
+      ["bs", "b"],
+      ["cs", "c"],
+      ["ds", "d"],
+      ["es", "e"],
+      ["fs", "f"],
+      ["gs", "g"],
+      ["hs", "h"],
+      ["ks", "k"],
+      ["ls", "l"],
+      ["ms", "m"],
+      ["ns", "n"],
+      ["os", "o"],
+      ["ps", "p"],
+      ["rs", "r"],
+      ["ts", "t"],
+      ["ws", "w"],
+      ["ys", "y"]
     ]
   },
   "exceptions": {
