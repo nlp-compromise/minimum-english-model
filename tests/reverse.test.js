@@ -25,6 +25,8 @@ test('reverse:', function (t) {
     let pairs = Object.entries(words)
     pairs = validate(pairs)
     let model = learn(pairs)
+    model = compress(model)
+    model = uncompress(model)
     let rev = reverse(model)
     pairs.forEach((a) => {
       let out = convert(a[1], rev)

@@ -23,9 +23,10 @@ test('test:', function (t) {
   all.forEach(a => {
     let [words, name] = a
     let pairs = Object.entries(words)
-    pairs = validate(pairs)
-    let model = learn(pairs)
-
+    pairs = validate(pairs, { inverse: false })//allow right-side dupes
+    let model = learn(pairs, { inverse: false })
+    model = compress(model)
+    model = uncompress(model)
     pairs.forEach((a) => {
       let out = convert(a[0], model)
       t.equal(out, a[1], `[${name}] '${a[0]}' -> '${out}'`)
