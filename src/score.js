@@ -17,19 +17,27 @@ const allRules = (model) => {
   return arr
 }
 
-const compute = function (wordPairs, tag) {
+const growth = (from, to) => {
+  from = Number(from.replace(/kb/, ''))
+  to = Number(to.replace(/kb/, ''))
+  let percent = (to / from - 1) * 100
+  return Math.round(percent)
+}
 
+let nums = []
+
+const compute = function (wordPairs, tag) {
+  let orig = fileSize(JSON.stringify(wordPairs))
   let arr = Object.entries(wordPairs)
   let model = learn(arr)
   console.log(`\n\n======${tag}`)
-  console.log('  ', arr.length, `words ${fileSize(JSON.stringify(wordPairs))}`)
-  console.log('  ', allRules(model).length, 'rules', Object.keys(model.exceptions).length, 'exceptions')
+  console.log('  ', arr.length.toLocaleString(), `words @ ${orig}`)
+  console.log('   → ', allRules(model).length, 'rules,', Object.keys(model.exceptions).length, 'exceptions')
   model = compress(model)
-  // console.log(model)
-  // console.log(model.rules)
   let res = JSON.stringify(model)
-  // console.log(res)
-  console.log(fileSize(res))
+  let change = growth(orig, fileSize(res))
+  console.log(fileSize(res), `   ${change}%`)
+  nums.push(change)
 }
 
 
@@ -40,3 +48,6 @@ compute(VBD, 'VBD')
 compute(VBG, 'VBG')
 compute(VBN, 'VBN')
 compute(VBZ, 'VBZ')
+let avg = nums.reduce((h, n) => h + n, 0) / nums.length
+const round = n => Math.round(n * 10) / 10
+console.log('\n\n', round(avg))

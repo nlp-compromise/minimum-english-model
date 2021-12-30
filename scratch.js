@@ -19,4 +19,4 @@ const measure = function (pairs, tag) {
 
 }
 measure(JJS, 'JJS')
-measure(VBD, 'VBD')
+// measure(VBD, 'VBD')
