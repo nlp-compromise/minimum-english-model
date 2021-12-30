@@ -29,7 +29,7 @@ let nums = []
 const compute = function (wordPairs, tag) {
   let orig = fileSize(JSON.stringify(wordPairs))
   let arr = Object.entries(wordPairs)
-  let model = learn(arr)
+  let model = learn(arr, { inverse: false })
   console.log(`\n\n======${tag}`)
   console.log('  ', arr.length.toLocaleString(), `words @ ${orig}`)
   console.log('   → ', allRules(model).length, 'rules,', Object.keys(model.exceptions).length, 'exceptions')

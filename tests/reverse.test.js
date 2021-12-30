@@ -23,7 +23,7 @@ test('reverse:', function (t) {
   all.forEach(a => {
     let [words, name] = a
     let pairs = Object.entries(words)
-    pairs = validate(pairs, { inverse: true })
+    pairs = validate(pairs)
     let model = learn(pairs)
     let rev = reverse(model)
     pairs.forEach((a) => {
