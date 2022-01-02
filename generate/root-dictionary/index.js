@@ -4,17 +4,27 @@ import fs from 'fs'
 
 let ids = []
 // const max = 226
-for (let i = 2; i <= 22; i += 1) {
+for (let i = 1; i <= 220; i += 1) {
   let str = String(i).padStart(4, '0')
   ids.push(str)
 }
 // ids = ['0004']
+// const broken = {
+//   '0018': true,
+//   '0055': true,
+//   '0060': true,
+//   '0064': true,
+//   '0065': true,
+//   // '0068': true,
+// }
+// ids = ids.filter(id => !broken[id])
+// ids = ['0004']
 
 const simple = {
   "NN": "NN",
-  "NP": "NN",
   "NNS": "NN",
-  "NPS": "NN",
+  // "NP": "NN",
+  // "NPS": "NN",
   "VB": "VB",
   "VBN": "VB",
   "VBD": "VB",
@@ -48,15 +58,19 @@ const topk = function (arr, len) {
 let all = {}
 
 const cb = (_word, root, pos) => {
-  root = root.trim().toLowerCase()
-  if (pos === 'CD' || pos === ',' || pos === 'LS') {
-    return
+  try {
+    root = root.trim().toLowerCase()
+    if (pos === 'CD' || pos === ',' || pos === 'LS') {
+      return
+    }
+    if (!all[root]) {
+      all[root] = []
+    }
+    pos = simple[pos] || pos
+    all[root].push(pos)
+  } catch (e) {
+    console.log('cb err:', root, pos)
   }
-  if (!all[root]) {
-    all[root] = []
-  }
-  pos = simple[pos] || pos
-  all[root].push(pos)
 }
 
 const done = function () {
@@ -92,9 +106,13 @@ const done = function () {
 
   ; (async () => {
     await forEachSync(ids, async id => {
-      console.log(`\ndoing ${id}:\n`)
-      await doSentence(id, cb)
-      console.log('  ', Object.keys(all).length.toLocaleString(), 'lemmas total')
+      try {
+        console.log(`\ndoing ${id}:\n`)
+        await doSentence(id, cb)
+        console.log('  ', Object.keys(all).length.toLocaleString(), 'lemmas total')
+      } catch (e) {
+        console.log(e)
+      }
     })
     done()
   })()

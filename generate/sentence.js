@@ -20,14 +20,13 @@ const ignore = function (str) {
 
 // kick them off
 const parseXml = function (id, cb) {
-  let list = []
   const parseEN = function (item) {
-
     item.w = item.w || []
     item.w.forEach(o => {
-      let word = o['$text']
-      let lem = o['$'].lem
-      let tag = o['$'].tree
+      o = o || {}
+      let word = o['$text'] || ''
+      let lem = o['$'].lem || ''
+      let tag = o['$'].tree || ''
       if (!word || !lem) {
         return
       }
@@ -37,13 +36,16 @@ const parseXml = function (id, cb) {
       if (!nope.has(lem) && !ignore(lem) && !ignore(word)) {
         cb(word, lem, tag)
       }
-      return
     })
-    return true
   }
-  return new Promise(resolve => {
-    const doneMaybe = () => resolve(list)
-    streamXml(giga + `${id}.xml`, parseEN, doneMaybe)
+  return new Promise((resolve, reject) => {
+    const doneMaybe = () => resolve([])
+    try {
+      streamXml(giga + `${id}.xml`, parseEN, doneMaybe)
+    } catch (e) {
+      console.log(e)
+      reject(e)
+    }
   })
 }
 

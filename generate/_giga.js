@@ -8,10 +8,6 @@ const streamXml = function (file, cb, end) {
   xml.on('endElement: s', function (item) {
     cb(item, xml)
   })
-  xml.on('error', function (e) {
-    console.log('error')
-    console.log(e)
-  })
   xml.on('end', end)
 }
 
