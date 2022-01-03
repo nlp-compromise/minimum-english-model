@@ -4,90 +4,54 @@ import fs from 'fs'
 
 let ids = []
 // const max = 226
-for (let i = 2; i <= 22; i += 1) {
+for (let i = 2; i <= 15; i += 1) {
   let str = String(i).padStart(4, '0')
   ids.push(str)
 }
 // ids = ['0004']
 
-const simple = {
-  "NN": "NN",
-  "NP": "NN",
-  "NNS": "NN",
-  "NPS": "NN",
-  "VB": "VB",
-  "VBN": "VB",
-  "VBD": "VB",
-  "VBG": "VB",
-  "VBP": "VB",
-  "VBZ": "VB",
-  "MD": "VB",
-  "JJR": "JJ",
-  "JJS": "JJ",
-  "RBR": "RB",
-  "RBS": "RB",
-}
-
-const percent = (part, total) => {
-  let num = (part / total) * 100;
-  num = Math.round(num)
-  return num;
-};
-
-const topk = function (arr, len) {
-  let obj = {}
-  arr.forEach(a => {
-    obj[a] = obj[a] || 0
-    obj[a] += 1
-  })
-  let res = Object.keys(obj).map(k => [k, percent(obj[k], len)])
-  return res.sort((a, b) => (a[1] > b[1] ? -1 : 0))
-}
-
+const tag = 'JJS'
+// const tag = 'VBN'
+// const tag = 'JJR'
 
 let all = {}
 
-const cb = (_word, root, pos) => {
-  root = root.trim().toLowerCase()
-  if (pos === 'CD' || pos === ',' || pos === 'LS') {
-    return
+const cb = (word, root, pos) => {
+  try {
+    root = root.trim().toLowerCase()
+    word = word.trim().toLowerCase()
+    if (pos !== tag) {
+      return
+    }
+    if (!all[word]) {
+      all[word] = [root, 0]
+    }
+    if (all[word][0] === root) {
+      all[word][1] += 1
+    } else {
+      console.log(word, all[word][0], root)
+    }
+  } catch (e) {
+    console.log(e)
   }
-  if (!all[root]) {
-    all[root] = []
-  }
-  pos = simple[pos] || pos
-  all[root].push(pos)
 }
 
 const done = function () {
   console.log('all-done.')
-  Object.keys(all).forEach(k => {
-    let len = all[k].length
-    all[k] = [len, topk(all[k], len)]
-  })
   all = Object.entries(all).map(a => {
-    let [count, tags] = a[1]
-    let tagObj = {}
-    tags = tags.filter(tag => tag[1] > 5)
-    tags.forEach(tag => {
-      tagObj[tag[0]] = tag[1]
-    })
-    return [a[0], count, tagObj]
+    return [a[0], a[1][0], a[1][1]]
   })
+  all = all.filter(a => a[2] > 1)
   all = all.sort((a, b) => {
-    if (a[1] > b[1]) {
+    if (a[2] > b[2]) {
       return -1
-    } else if (a[1] < b[1]) {
+    } else if (a[2] < b[2]) {
       return 1
     }
     return 0
   })
-  let out = all.reduce((h, info) => {
-    h[info[0]] = [info[1], info[2]]
-    return h
-  }, {})
-  out = JSON.stringify(out, null, 2)
-  fs.writeFileSync('./out.js', 'export default ' + out)
+  all = JSON.stringify(all, null, 2)
+  fs.writeFileSync(`./pairs/${tag}.js`, 'export default ' + all)
 }
 
   ; (async () => {

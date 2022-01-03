@@ -4,10 +4,9 @@ import fs from 'fs'
 
 import JJR from '../pairs/JJR.js'
 import JJS from '../pairs/JJS.js'
-import RBR from '../pairs/RBR.js'
+// import RBR from '../pairs/RBR.js'
 import VBD from '../pairs/VBD.js'
 import VBG from '../pairs/VBG.js'
-import VBN from '../pairs/VBN.js'
 import VBZ from '../pairs/VBZ.js'
 
 const allRules = (model) => {
@@ -21,7 +20,7 @@ const allRules = (model) => {
 let nums = []
 
 const compute = function (wordPairs, tag) {
-  let arr = Object.entries(wordPairs)
+  let arr = wordPairs//Object.entries(wordPairs)
   let model = learn(arr, { inverse: false })
   console.log(`\n\n======${tag}`)
   console.log('  ', arr.length.toLocaleString(), `words `)
@@ -34,6 +33,5 @@ const compute = function (wordPairs, tag) {
 compute(JJR, 'Comparative')
 compute(JJS, 'Superlative')
 compute(VBD, 'PastTense')
-// compute(VBN, 'VBN') past-participle
 compute(VBG, 'Gerund')
 compute(VBZ, 'PresentTense')
