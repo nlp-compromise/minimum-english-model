@@ -182,10 +182,6 @@ export default {
         "eat"
       ],
       [
-        "gating",
-        "gate"
-      ],
-      [
         "oating",
         "oat"
       ],
@@ -585,7 +581,6 @@ export default {
   },
   "exceptions": {
     "combating": "combat",
-    "gating": "gat",
     "preparing": "prepare",
     "sharing": "share",
     "occurring": "occur",

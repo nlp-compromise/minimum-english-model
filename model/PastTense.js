@@ -850,7 +850,6 @@ export default {
     "taught": "teach",
     "struck": "strike",
     "dealt": "deal",
-    "'d": "have",
     "broke": "break",
     "echoed": "echo",
     "withdrew": "withdraw",

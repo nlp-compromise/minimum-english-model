@@ -958,7 +958,6 @@
   "reprogram",
   "tumble",
   "tack",
-  "ai",
   "gaze",
   "girdle",
   "sinter",
