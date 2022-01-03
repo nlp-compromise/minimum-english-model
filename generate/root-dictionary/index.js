@@ -4,7 +4,7 @@ import fs from 'fs'
 
 let ids = []
 // const max = 226
-for (let i = 1; i <= 220; i += 1) {
+for (let i = 1; i <= 65; i += 1) {
   let str = String(i).padStart(4, '0')
   ids.push(str)
 }

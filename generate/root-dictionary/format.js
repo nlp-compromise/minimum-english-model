@@ -68,8 +68,8 @@ const percent = (part, total) => {
 
 const print = function (arr, name) {
   let str = JSON.stringify(arr, null, 2)
-  let small = pack(arr)
-  fs.writeFileSync(`./root-dictionary/${name}.js`, small)
+  // let small = pack(arr)
+  fs.writeFileSync(`./root-dictionary/${name}.js`, str)
   let kb = fs.statSync(`./root-dictionary/${name}.js`).size / 1024
   let per = percent(arr.length, keys.length)
   console.log(arr.length.toLocaleString().padStart(10), '   ', per + '%   ', (Math.round(kb) + 'kb').padStart(8), '   ', name)
