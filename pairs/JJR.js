@@ -1,18 +1,8 @@
 export default [
   [
-    "more",
-    "more",
-    33437
-  ],
-  [
     "higher",
     "high",
     7516
-  ],
-  [
-    "less",
-    "less",
-    7401
   ],
   [
     "greater",

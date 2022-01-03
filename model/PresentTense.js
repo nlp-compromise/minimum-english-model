@@ -1,151 +1,233 @@
 export default {
   "rules": {
     "s": [
-      ["charges", "charge"],
-      ["harges", "harge"],
-      ["efines", "efine"],
-      ["venes", "vene"],
-      ["fines", "fine"],
-      ["rges", "rge"],
-      ["dies", "dy"],
-      ["lies", "ly"],
-      ["pies", "py"],
-      ["ties", "ty"],
-      ["ines", "ine"],
-      ["ases", "ase"],
-      ["uses", "use"],
-      ["axes", "ax"],
-      ["ges", "ge"],
-      ["hes", "h"],
-      ["ies", "y"],
-      ["nes", "ne"],
-      ["ses", "se"],
-      ["xes", "x"],
-      ["bs", "b"],
-      ["cs", "c"],
-      ["ds", "d"],
-      ["es", "e"],
-      ["fs", "f"],
-      ["gs", "g"],
-      ["hs", "h"],
-      ["ks", "k"],
-      ["ls", "l"],
-      ["ms", "m"],
-      ["ns", "n"],
-      ["os", "o"],
-      ["ps", "p"],
-      ["rs", "r"],
-      ["ts", "t"],
-      ["ws", "w"],
-      ["ys", "y"]
+      [
+        "efines",
+        "efine"
+      ],
+      [
+        "venes",
+        "vene"
+      ],
+      [
+        "fines",
+        "fine"
+      ],
+      [
+        "cuses",
+        "cuse"
+      ],
+      [
+        "dies",
+        "dy"
+      ],
+      [
+        "lies",
+        "ly"
+      ],
+      [
+        "ties",
+        "ty"
+      ],
+      [
+        "ines",
+        "ine"
+      ],
+      [
+        "ases",
+        "ase"
+      ],
+      [
+        "uses",
+        "use"
+      ],
+      [
+        "ics",
+        "ic"
+      ],
+      [
+        "hes",
+        "h"
+      ],
+      [
+        "ies",
+        "y"
+      ],
+      [
+        "nes",
+        "ne"
+      ],
+      [
+        "ses",
+        "se"
+      ],
+      [
+        "bs",
+        "b"
+      ],
+      [
+        "ds",
+        "d"
+      ],
+      [
+        "es",
+        "e"
+      ],
+      [
+        "fs",
+        "f"
+      ],
+      [
+        "gs",
+        "g"
+      ],
+      [
+        "hs",
+        "h"
+      ],
+      [
+        "ks",
+        "k"
+      ],
+      [
+        "ls",
+        "l"
+      ],
+      [
+        "ms",
+        "m"
+      ],
+      [
+        "ns",
+        "n"
+      ],
+      [
+        "os",
+        "o"
+      ],
+      [
+        "ps",
+        "p"
+      ],
+      [
+        "rs",
+        "r"
+      ],
+      [
+        "ts",
+        "t"
+      ],
+      [
+        "ws",
+        "w"
+      ],
+      [
+        "ys",
+        "y"
+      ]
     ]
   },
   "exceptions": {
     "does": "do",
     "focuses": "focus",
-    "passes": "pass",
-    "possesses": "possess",
-    "zeroes": "zero",
-    "goes": "go",
-    "progresses": "progress",
-    "undergoes": "undergo",
-    "discusses": "discuss",
-    "encompasses": "encompass",
     "addresses": "address",
-    "crosses": "cross",
+    "goes": "go",
     "processes": "process",
+    "encompasses": "encompass",
+    "discusses": "discuss",
     "assesses": "assess",
     "expresses": "express",
-    "surpasses": "surpass",
+    "passes": "pass",
     "stresses": "stress",
-    "accesses": "access",
-    "harnesses": "harness",
-    "bypasses": "bypass",
-    "canvasses": "canvass",
-    "echoes": "echo",
-    "foregoes": "forego",
-    "gases": "gas",
-    "biases": "bias",
-    "gasses": "gas",
-    "misses": "miss",
-    "grasses": "grass",
-    "suppresses": "suppress",
-    "depresses": "depress",
-    "guesses": "guess",
-    "recharges": "recharg",
-    "pies": "pi",
+    "possesses": "possess",
+    "crosses": "cross",
+    "progresses": "progress",
+    "undergoes": "undergo",
     "presses": "press",
-    "classes": "class",
-    "dismisses": "dismiss",
-    "tosses": "toss",
+    "mixes": "mix",
+    "surpasses": "surpass",
+    "grasses": "grass",
+    "echoes": "echo",
+    "misses": "miss",
+    "dresses": "dress",
+    "taxes": "tax",
+    "suppresses": "suppress",
+    "fixes": "fix",
+    "bypasses": "bypass",
+    "depresses": "depress",
+    "accesses": "access",
+    "relaxes": "relax",
+    "annexes": "annex",
+    "waxes": "wax",
+    "indexes": "index",
     "reconvenes": "reconven",
-    "forgoes": "forgo",
+    "gases": "gas",
+    "gasses": "gas",
     "redefines": "redefin",
+    "harnesses": "harness",
+    "canvasses": "canvass",
+    "guesses": "guess",
+    "dismisses": "dismiss",
+    "forgoes": "forgo",
     "professes": "profess",
-    "kisses": "kiss",
-    "grosses": "gross",
-    "witnesses": "witness",
+    "boxes": "box",
+    "compresses": "compress",
+    "represses": "repress",
     "lies": "lie",
-    "underlies": "underlie",
-    "vies": "vie",
-    "ties": "tie",
     "dies": "die",
+    "underlies": "underlie",
+    "ties": "tie",
     "belies": "belie",
+    "vies": "vie",
     "overlies": "overlie",
-    "sorties": "sortie",
     "breathes": "breathe",
-    "axes": "axe",
     "is": "be",
     "has": "have",
-    "absorbs": "absorb",
-    "telescopes": "telescope",
-    "resembles": "resemble",
+    "'s": "be",
     "describes": "describe",
-    "ai": "ai",
-    "resides": "reside",
-    "preserves": "preserve",
     "estimates": "estimate",
-    "prescribes": "prescribe",
+    "resides": "reside",
     "reserves": "reserve",
-    "resumes": "resume",
-    "escalates": "escalate",
-    "foresees": "foresee",
-    "necessitates": "necessitate",
-    "wholesales": "wholesale",
-    "presides": "preside",
-    "deserves": "deserve",
-    "resolves": "resolve",
     "investigates": "investigate",
-    "consigns": "consign",
     "designates": "designate",
-    "desires": "desire",
-    "the": "create",
-    "docline": "do",
-    "of": "consist",
-    "when": "work",
-    "data": "use",
-    "information": "contain",
-    "three": "contain",
-    "you": "allow",
-    "four": "contain",
-    "that": "indicate",
-    "routed": "have",
+    "deserves": "deserve",
+    "necessitates": "necessitate",
+    "preserves": "preserve",
+    "resembles": "resemble",
+    "prescribes": "prescribe",
     "restores": "restore",
     "resonates": "resonate",
-    "underestimates": "underestimate",
-    "escapes": "escape",
-    "dimensions": "dimension",
-    "hath": "have",
-    "presumes": "presume",
-    "visas": "visa",
-    "pressures": "pressure",
-    "synthesizes": "synthesize",
+    "resolves": "resolve",
+    "absorbs": "absorb",
+    "desires": "desire",
+    "resumes": "resume",
+    "foresees": "foresee",
     "constrains": "constrain",
     "pensions": "pension",
+    "presumes": "presume",
+    "consigns": "consign",
+    "escapes": "escape",
+    "escalates": "escalate",
+    "synthesizes": "synthesize",
+    "ai": "ai",
+    "underestimates": "underestimate",
+    "visas": "visa",
+    "information": "contain",
+    "dimensions": "dimension",
+    "presides": "preside",
+    "pressures": "pressure",
+    "restates": "restate",
+    "hath": "have",
+    "an": "be",
+    "of": "consist",
+    "very": "be",
+    "a": "be",
     "reshapes": "reshape",
     "hypothesizes": "hypothesize",
     "overestimates": "overestimate",
-    "rescues": "rescue",
-    "restates": "restate"
+    "presages": "presage",
+    "crafted": "be",
+    "unclear": "be",
+    "orchestrates": "orchestrate"
   }
 }

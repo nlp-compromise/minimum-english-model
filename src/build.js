@@ -4,9 +4,10 @@ import fs from 'fs'
 
 import JJR from '../pairs/JJR.js'
 import JJS from '../pairs/JJS.js'
-// import RBR from '../pairs/RBR.js'
+import RB from '../pairs/RB.js'
 import VBD from '../pairs/VBD.js'
 import VBG from '../pairs/VBG.js'
+import VBN from '../pairs/VBN.js'
 import VBZ from '../pairs/VBZ.js'
 
 const allRules = (model) => {
@@ -32,6 +33,8 @@ const compute = function (wordPairs, tag) {
 
 compute(JJR, 'Comparative')
 compute(JJS, 'Superlative')
+compute(RB, 'Adverb')
 compute(VBD, 'PastTense')
 compute(VBG, 'Gerund')
+compute(VBN, 'Participle')
 compute(VBZ, 'PresentTense')

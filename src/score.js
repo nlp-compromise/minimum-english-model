@@ -3,7 +3,7 @@ import fileSize from './fileSize.js'
 
 import JJR from '../pairs/JJR.js'
 import JJS from '../pairs/JJS.js'
-import RBR from '../pairs/RBR.js'
+import RB from '../pairs/RB.js'
 import VBD from '../pairs/VBD.js'
 import VBG from '../pairs/VBG.js'
 import VBN from '../pairs/VBN.js'
@@ -28,7 +28,7 @@ let nums = []
 
 const compute = function (wordPairs, tag) {
   let orig = fileSize(JSON.stringify(wordPairs))
-  let arr = Object.entries(wordPairs)
+  let arr = wordPairs//Object.entries(wordPairs)
   let model = learn(arr, { inverse: false })
   console.log(`\n\n======${tag}`)
   console.log('  ', arr.length.toLocaleString(), `words @ ${orig}`)
@@ -43,7 +43,7 @@ const compute = function (wordPairs, tag) {
 
 compute(JJR, 'JJR')
 compute(JJS, 'JJS')
-compute(RBR, 'RBR')
+compute(RB, 'RB')
 compute(VBD, 'VBD')
 compute(VBG, 'VBG')
 compute(VBN, 'VBN')

@@ -1,170 +1,450 @@
 export default {
   "rules": {
     "d": [
-      ["scribed", "scribe"],
-      ["nnelled", "nnel"],
-      ["logized", "logize"],
-      ["celled", "cel"],
-      ["selled", "sel"],
-      ["velled", "vel"],
-      ["efined", "efine"],
-      ["rouped", "roup"],
-      ["reated", "reat"],
-      ["ighted", "ight"],
-      ["icized", "icize"],
-      ["atized", "atize"],
-      ["itized", "itize"],
-      ["inged", "inge"],
-      ["athed", "ath"],
-      ["ckled", "ckle"],
-      ["ooled", "ool"],
-      ["zzled", "zzle"],
-      ["fined", "fine"],
-      ["honed", "hone"],
-      ["loped", "lop"],
-      ["hered", "her"],
-      ["vered", "ver"],
-      ["hored", "hore"],
-      ["erred", "er"],
-      ["cused", "cuse"],
-      ["oused", "ouse"],
-      ["eated", "eat"],
-      ["leted", "lete"],
-      ["cited", "cite"],
-      ["sited", "sit"],
-      ["asted", "ast"],
-      ["etted", "et"],
-      ["dized", "dize"],
-      ["lized", "lize"],
-      ["mized", "mize"],
-      ["nized", "nize"],
-      ["rized", "rize"],
-      ["sized", "size"],
-      ["bbed", "b"],
-      ["mbed", "mb"],
-      ["rbed", "rb"],
-      ["aded", "ade"],
-      ["dded", "d"],
-      ["ided", "ide"],
-      ["uded", "ude"],
-      ["nged", "nge"],
-      ["shed", "sh"],
-      ["thed", "th"],
-      ["died", "dy"],
-      ["lied", "ly"],
-      ["pied", "py"],
-      ["aked", "ak"],
-      ["oked", "oke"],
-      ["aled", "al"],
-      ["bled", "ble"],
-      ["cled", "cle"],
-      ["dled", "dle"],
-      ["eled", "el"],
-      ["fled", "fle"],
-      ["gled", "gle"],
-      ["iled", "il"],
-      ["pled", "ple"],
-      ["rled", "rl"],
-      ["tled", "tle"],
-      ["uled", "ule"],
-      ["wled", "wl"],
-      ["amed", "am"],
-      ["imed", "im"],
-      ["omed", "om"],
-      ["aned", "an"],
-      ["ened", "en"],
-      ["ined", "in"],
-      ["oned", "on"],
-      ["aped", "ape"],
-      ["iped", "ipe"],
-      ["mped", "mp"],
-      ["oped", "op"],
-      ["pped", "p"],
-      ["ared", "are"],
-      ["ered", "er"],
-      ["ired", "ire"],
-      ["ored", "or"],
-      ["rred", "r"],
-      ["ured", "ure"],
-      ["used", "use"],
-      ["ated", "ate"],
-      ["cted", "ct"],
-      ["eted", "et"],
-      ["fted", "ft"],
-      ["ited", "it"],
-      ["lted", "lt"],
-      ["nted", "nt"],
-      ["oted", "ote"],
-      ["pted", "pt"],
-      ["rted", "rt"],
-      ["sted", "st"],
-      ["tted", "t"],
-      ["uted", "ute"],
-      ["owed", "ow"],
-      ["eyed", "ey"],
-      ["azed", "aze"],
-      ["ound", "ind"],
-      ["tood", "tand"],
-      ["ead", "ead"],
-      ["ced", "ce"],
-      ["ded", "d"],
-      ["eed", "ee"],
-      ["fed", "f"],
-      ["ged", "ge"],
-      ["hed", "h"],
-      ["ied", "y"],
-      ["ked", "k"],
-      ["med", "m"],
-      ["ned", "n"],
-      ["oed", "o"],
-      ["red", "r"],
-      ["sed", "se"],
-      ["ued", "ue"],
-      ["ved", "ve"],
-      ["wed", "w"],
-      ["xed", "x"],
-      ["yed", "y"],
-      ["aid", "ay"],
-      ["bid", "bid"],
-      ["eld", "old"],
-      ["old", "ell"]
+      [
+        "scribed",
+        "scribe"
+      ],
+      [
+        "velled",
+        "vel"
+      ],
+      [
+        "efined",
+        "efine"
+      ],
+      [
+        "ighted",
+        "ight"
+      ],
+      [
+        "ckled",
+        "ckle"
+      ],
+      [
+        "illed",
+        "ill"
+      ],
+      [
+        "ooled",
+        "ool"
+      ],
+      [
+        "urled",
+        "url"
+      ],
+      [
+        "fined",
+        "fine"
+      ],
+      [
+        "hered",
+        "her"
+      ],
+      [
+        "vered",
+        "ver"
+      ],
+      [
+        "cused",
+        "cuse"
+      ],
+      [
+        "eated",
+        "eat"
+      ],
+      [
+        "dited",
+        "dit"
+      ],
+      [
+        "sited",
+        "sit"
+      ],
+      [
+        "asted",
+        "ast"
+      ],
+      [
+        "bbed",
+        "b"
+      ],
+      [
+        "mbed",
+        "mb"
+      ],
+      [
+        "rbed",
+        "rb"
+      ],
+      [
+        "aded",
+        "ade"
+      ],
+      [
+        "dded",
+        "d"
+      ],
+      [
+        "ided",
+        "ide"
+      ],
+      [
+        "uded",
+        "ude"
+      ],
+      [
+        "nged",
+        "nge"
+      ],
+      [
+        "shed",
+        "sh"
+      ],
+      [
+        "died",
+        "dy"
+      ],
+      [
+        "lied",
+        "ly"
+      ],
+      [
+        "pied",
+        "py"
+      ],
+      [
+        "oked",
+        "oke"
+      ],
+      [
+        "aled",
+        "al"
+      ],
+      [
+        "bled",
+        "ble"
+      ],
+      [
+        "dled",
+        "dle"
+      ],
+      [
+        "eled",
+        "el"
+      ],
+      [
+        "fled",
+        "fle"
+      ],
+      [
+        "gled",
+        "gle"
+      ],
+      [
+        "iled",
+        "il"
+      ],
+      [
+        "pled",
+        "ple"
+      ],
+      [
+        "tled",
+        "tle"
+      ],
+      [
+        "uled",
+        "ule"
+      ],
+      [
+        "imed",
+        "im"
+      ],
+      [
+        "aned",
+        "an"
+      ],
+      [
+        "ened",
+        "en"
+      ],
+      [
+        "ined",
+        "in"
+      ],
+      [
+        "oned",
+        "on"
+      ],
+      [
+        "aped",
+        "ape"
+      ],
+      [
+        "mped",
+        "mp"
+      ],
+      [
+        "oped",
+        "op"
+      ],
+      [
+        "pped",
+        "p"
+      ],
+      [
+        "ared",
+        "are"
+      ],
+      [
+        "ered",
+        "er"
+      ],
+      [
+        "ired",
+        "ire"
+      ],
+      [
+        "rred",
+        "r"
+      ],
+      [
+        "ured",
+        "ure"
+      ],
+      [
+        "used",
+        "use"
+      ],
+      [
+        "ated",
+        "ate"
+      ],
+      [
+        "cted",
+        "ct"
+      ],
+      [
+        "eted",
+        "et"
+      ],
+      [
+        "fted",
+        "ft"
+      ],
+      [
+        "ited",
+        "it"
+      ],
+      [
+        "lted",
+        "lt"
+      ],
+      [
+        "nted",
+        "nt"
+      ],
+      [
+        "oted",
+        "ote"
+      ],
+      [
+        "pted",
+        "pt"
+      ],
+      [
+        "rted",
+        "rt"
+      ],
+      [
+        "sted",
+        "st"
+      ],
+      [
+        "tted",
+        "t"
+      ],
+      [
+        "uted",
+        "ute"
+      ],
+      [
+        "owed",
+        "ow"
+      ],
+      [
+        "ound",
+        "ind"
+      ],
+      [
+        "tood",
+        "tand"
+      ],
+      [
+        "ead",
+        "ead"
+      ],
+      [
+        "ced",
+        "ce"
+      ],
+      [
+        "ded",
+        "d"
+      ],
+      [
+        "eed",
+        "ee"
+      ],
+      [
+        "fed",
+        "f"
+      ],
+      [
+        "ged",
+        "ge"
+      ],
+      [
+        "hed",
+        "h"
+      ],
+      [
+        "ied",
+        "y"
+      ],
+      [
+        "ked",
+        "k"
+      ],
+      [
+        "med",
+        "m"
+      ],
+      [
+        "ned",
+        "n"
+      ],
+      [
+        "red",
+        "r"
+      ],
+      [
+        "sed",
+        "se"
+      ],
+      [
+        "ued",
+        "ue"
+      ],
+      [
+        "ved",
+        "ve"
+      ],
+      [
+        "wed",
+        "w"
+      ],
+      [
+        "xed",
+        "x"
+      ],
+      [
+        "yed",
+        "y"
+      ],
+      [
+        "zed",
+        "ze"
+      ],
+      [
+        "aid",
+        "ay"
+      ],
+      [
+        "bid",
+        "bid"
+      ],
+      [
+        "eld",
+        "old"
+      ],
+      [
+        "old",
+        "ell"
+      ]
     ],
     "e": [
-      ["rote", "rite"],
-      ["rove", "rive"],
-      ["ode", "ide"],
-      ["ame", "ome"],
-      ["ore", "ear"],
-      ["ave", "ive"
+      [
+        "rote",
+        "rite"
+      ],
+      [
+        "rove",
+        "rive"
+      ],
+      [
+        "ame",
+        "ome"
+      ],
+      [
+        "ore",
+        "ear"
+      ]
+    ],
+    "t": [
+      [
+        "uilt",
+        "uild"
+      ],
+      [
+        "ent",
+        "end"
+      ],
+      [
+        "ept",
+        "eep"
+      ],
+      [
+        "et",
+        "et"
+      ],
+      [
+        "st",
+        "st"
+      ],
+      [
+        "ut",
+        "ut"
       ]
     ],
     "g": [
       [
-        "lung", "ling"],
-      ["rung", "ring"],
-      ["ang", "ing"
-      ]
-    ],
-    "t": [
-      ["uilt", "uild"],
-      ["ent", "end"],
-      ["rnt", "rn"],
-      ["ept", "eep"],
-      ["et", "et"],
-      ["st", "st"],
-      ["ut", "ut"
+        "ang",
+        "ing"
       ]
     ],
     "k": [
-      ["ank", "ink"],
-      ["ook", "ake"
+      [
+        "ank",
+        "ink"
+      ],
+      [
+        "ook",
+        "ake"
       ]
     ],
     "w": [
-      ["aw", "ee"]
+      [
+        "aw",
+        "ee"
+      ]
     ],
     "y": [
-      ["ay", "ie"]
+      [
+        "ay",
+        "ie"
+      ]
     ]
   },
   "exceptions": {
@@ -173,407 +453,327 @@ export default {
     "explored": "explore",
     "underscored": "underscore",
     "stored": "store",
-    "bred": "breed",
-    "restored": "restore",
-    "ignored": "ignore",
-    "adhered": "adhere",
-    "centred": "centre",
     "scored": "score",
+    "restored": "restore",
+    "centred": "centre",
+    "adhered": "adhere",
+    "ignored": "ignore",
     "deplored": "deplore",
-    "implored": "implore",
+    "bred": "breed",
+    "authored": "authore",
     "persevered": "persevere",
     "interfered": "interfere",
-    "determined": "determine",
-    "combined": "combine",
+    "shored": "shore",
     "declined": "decline",
-    "outlined": "outline",
-    "banned": "ban",
-    "tuned": "tune",
-    "canned": "can",
-    "underpinned": "underpin",
-    "underlined": "underline",
-    "planned": "plan",
     "examined": "examine",
-    "manned": "man",
-    "skinned": "skin",
-    "grinned": "grin",
-    "dined": "dine",
-    "postponed": "postpone",
-    "opined": "opine",
-    "undermined": "undermine",
-    "attuned": "attune",
-    "intervened": "intervene",
-    "mined": "mine",
+    "determined": "determine",
+    "outlined": "outline",
+    "planned": "plan",
+    "combined": "combine",
     "convened": "convene",
-    "streamlined": "streamline",
-    "destined": "destine",
+    "underlined": "underline",
+    "intervened": "intervene",
     "spanned": "span",
-    "waned": "wane",
-    "imagined": "imagine",
-    "scanned": "scan",
+    "banned": "ban",
+    "postponed": "postpone",
     "lined": "line",
-    "penned": "pen",
+    "undermined": "undermine",
+    "streamlined": "streamline",
+    "scanned": "scan",
     "contravened": "contravene",
-    "quarantined": "quarantine",
-    "zoned": "zone",
-    "boned": "bone",
-    "shunned": "shun",
+    "destined": "destine",
+    "telephoned": "telephone",
+    "imagined": "imagine",
+    "phoned": "phone",
+    "mined": "mine",
     "enshrined": "enshrine",
-    "atoned": "atone",
-    "headlined": "headline",
-    "passed": "pass",
-    "focused": "focus",
-    "missed": "miss",
-    "witnessed": "witness",
-    "surpassed": "surpass",
-    "processed": "process",
-    "addressed": "address",
+    "tuned": "tune",
+    "dined": "dine",
+    "manned": "man",
+    "underpinned": "underpin",
+    "opined": "opine",
+    "tanned": "tan",
+    "calcined": "calcine",
+    "waned": "wane",
+    "quarantined": "quarantine",
+    "donned": "don",
+    "machined": "machine",
+    "intertwined": "intertwine",
+    "coded": "code",
+    "acceded": "accede",
+    "preceded": "precede",
+    "superseded": "supersede",
+    "conceded": "concede",
+    "exploded": "explode",
+    "impeded": "impede",
+    "eroded": "erode",
+    "ceded": "cede",
+    "encoded": "encode",
     "expressed": "express",
     "discussed": "discuss",
+    "addressed": "address",
+    "focused": "focus",
     "stressed": "stress",
-    "accessed": "access",
-    "progressed": "progress",
-    "pressed": "press",
-    "focussed": "focus",
-    "crossed": "cross",
+    "passed": "pass",
     "assessed": "assess",
-    "grossed": "gross",
-    "encompassed": "encompass",
-    "distressed": "distress",
-    "guessed": "guess",
-    "depressed": "depress",
-    "rendezvoused": "rendezvous",
-    "blessed": "bless",
-    "suppressed": "suppress",
+    "focussed": "focus",
+    "accessed": "access",
+    "surpassed": "surpass",
+    "witnessed": "witness",
+    "processed": "process",
     "dismissed": "dismiss",
-    "schussed": "schuss",
+    "progressed": "progress",
+    "missed": "miss",
+    "encompassed": "encompass",
+    "crossed": "cross",
     "possessed": "possess",
-    "amassed": "amass",
-    "compressed": "compress",
-    "tossed": "toss",
-    "dressed": "dress",
-    "bypassed": "bypass",
-    "grassed": "grass",
-    "regressed": "regress",
-    "harnessed": "harness",
+    "embossed": "emboss",
+    "pressed": "press",
     "impressed": "impress",
     "canvassed": "canvass",
+    "dressed": "dress",
+    "grassed": "grass",
+    "compressed": "compress",
+    "suppressed": "suppress",
+    "bypassed": "bypass",
+    "grossed": "gross",
+    "depressed": "depress",
+    "harnessed": "harness",
+    "oppressed": "oppress",
+    "amassed": "amass",
+    "regressed": "regress",
     "confessed": "confess",
     "reassessed": "reassess",
-    "oppressed": "oppress",
-    "exploded": "explode",
-    "preceded": "precede",
-    "ceded": "cede",
-    "eroded": "erode",
-    "conceded": "concede",
-    "impeded": "impede",
-    "imploded": "implode",
-    "decoded": "decode",
-    "acceded": "accede",
-    "coded": "code",
-    "encoded": "encode",
-    "receded": "recede",
-    "breathed": "breathe",
-    "soothed": "soothe",
     "shed": "shed",
+    "breathed": "breathe",
     "died": "die",
-    "tied": "tie",
     "pied": "pi",
+    "tied": "tie",
     "lied": "lie",
     "liked": "like",
-    "baked": "bake",
-    "flaked": "flake",
-    "trekked": "trek",
     "hiked": "hike",
     "disliked": "dislike",
+    "baked": "bake",
+    "flaked": "flake",
     "staked": "stake",
-    "caked": "cake",
-    "flogged": "flog",
-    "belonged": "belong",
-    "tugged": "tug",
-    "longed": "long",
-    "shrugged": "shrug",
-    "unplugged": "unplug",
-    "tagged": "tag",
-    "logged": "log",
     "plugged": "plug",
     "lagged": "lag",
-    "dragged": "drag",
+    "belonged": "belong",
+    "logged": "log",
+    "winged": "wing",
+    "tagged": "tag",
     "flagged": "flag",
     "jogged": "jog",
-    "winged": "wing",
+    "dragged": "drag",
     "bagged": "bag",
-    "begged": "beg",
-    "pegged": "peg",
-    "bogged": "bog",
-    "tasted": "taste",
-    "wasted": "waste",
+    "prolonged": "prolong",
     "basted": "baste",
+    "wasted": "waste",
     "lambasted": "lambaste",
-    "named": "name",
     "welcomed": "welcome",
-    "consumed": "consume",
-    "stemmed": "stem",
-    "renamed": "rename",
     "resumed": "resume",
     "assumed": "assume",
-    "homed": "home",
-    "trimmed": "trim",
-    "skimmed": "skim",
-    "fumed": "fume",
-    "brimmed": "brim",
-    "framed": "frame",
-    "blamed": "blame",
-    "jammed": "jam",
-    "defamed": "defame",
-    "reprogrammed": "reprogram",
+    "named": "name",
+    "stemmed": "stem",
     "summed": "sum",
-    "diagrammed": "diagram",
-    "timed": "time",
+    "framed": "frame",
+    "renamed": "rename",
+    "consumed": "consume",
+    "blamed": "blame",
+    "trimmed": "trim",
+    "limed": "lime",
+    "skimmed": "skim",
     "subsumed": "subsume",
-    "presumed": "presume",
-    "owed": "owe",
-    "ignited": "ignite",
-    "invited": "invite",
-    "reunited": "reunite",
-    "united": "unite",
-    "sited": "site",
-    "flavoured": "flavour",
+    "primed": "prime",
     "favoured": "favour",
-    "savoured": "savour",
-    "poured": "pour",
     "honoured": "honour",
     "toured": "tour",
+    "flavoured": "flavour",
     "endeavoured": "endeavour",
-    "outpoured": "outpour",
-    "harboured": "harbour",
     "coloured": "colour",
+    "poured": "pour",
     "discoloured": "discolour",
     "disfavoured": "disfavour",
     "chauffeured": "chauffeur",
+    "cited": "cite",
+    "invited": "invite",
+    "ignited": "ignite",
+    "united": "unite",
+    "incited": "incite",
+    "recited": "recite",
+    "expedited": "expedite",
+    "sited": "site",
     "boycotted": "boycott",
-    "gazetted": "gazette",
-    "eyed": "eye",
-    "dyed": "dye",
+    "owed": "owe",
     "filed": "file",
     "compiled": "compile",
-    "piled": "pile",
-    "smiled": "smile",
     "reconciled": "reconcile",
-    "stockpiled": "stockpile",
     "domiciled": "domicile",
-    "bled": "bleed",
+    "stockpiled": "stockpile",
+    "dyed": "dye",
     "erred": "err",
-    "repaired": "repair",
+    "debuted": "debut",
+    "sprouted": "sprout",
+    "spouted": "spout",
     "chaired": "chair",
     "aired": "air",
     "paired": "pair",
-    "shouted": "shout",
-    "debuted": "debut",
-    "spouted": "spout",
-    "sprouted": "sprout",
-    "touted": "tout",
-    "competed": "compete",
-    "excreted": "excrete",
-    "secreted": "secrete",
+    "impaired": "impair",
     "avoided": "avoid",
     "aided": "aid",
     "raided": "raid",
+    "voided": "void",
+    "completed": "complete",
+    "competed": "compete",
+    "depleted": "deplete",
+    "excreted": "excrete",
     "appeared": "appear",
     "soared": "soar",
-    "disappeared": "disappear",
-    "cleared": "clear",
-    "neared": "near",
-    "seared": "sear",
     "feared": "fear",
-    "geared": "gear",
+    "cleared": "clear",
+    "disappeared": "disappear",
     "endeared": "endear",
+    "neared": "near",
     "headed": "head",
-    "pleaded": "plead",
-    "dreaded": "dread",
     "spearheaded": "spearhead",
+    "threaded": "thread",
     "loaded": "load",
-    "unloaded": "unload",
-    "unleaded": "unlead",
+    "pleaded": "plead",
     "breaded": "bread",
-    "created": "create",
-    "permeated": "permeate",
-    "recreated": "recreate",
-    "delineated": "delineate",
-    "baled": "bale",
-    "scaled": "scale",
-    "fed": "feed",
+    "unloaded": "unload",
+    "piloted": "pilot",
+    "footed": "foot",
     "applauded": "applaud",
     "lauded": "laud",
-    "shrouded": "shroud",
+    "scaled": "scale",
+    "created": "create",
+    "delineated": "delineate",
+    "recreated": "recreate",
+    "permeated": "permeate",
+    "lost": "lose",
     "looked": "look",
     "booked": "book",
+    "overlooked": "overlook",
     "cooked": "cook",
     "hooked": "hook",
-    "overlooked": "overlook",
+    "met": "meet",
+    "pled": "plead",
+    "fed": "feed",
     "hoped": "hope",
     "sloped": "slope",
-    "coped": "cope",
-    "lost": "lose",
-    "pled": "plead",
-    "met": "meet",
-    "unrooted": "unroot",
-    "rooted": "root",
-    "piloted": "pilot",
-    "looted": "loot",
-    "footed": "foot",
-    "added": "add",
     "went": "go",
     "underwent": "undergo",
     "pent": "pen",
-    "leaped": "leap",
-    "reaped": "reap",
-    "overhauled": "overhaul",
     "hauled": "haul",
-    "tiptoed": "tiptoe",
-    "canoed": "canoe",
-    "solicited": "solicit",
-    "elicited": "elicit",
+    "overhauled": "overhaul",
     "redefined": "redefin",
+    "added": "add",
+    "reaped": "reap",
     "fled": "flee",
-    "siphoned": "siphon",
-    "pelleted": "pellet",
-    "rove": "reeve",
     "was": "be",
-    "did": "do",
-    "drew": "draw",
     "were": "be",
-    "began": "begin",
     "had": "have",
-    "taught": "teach",
-    "left": "leave",
-    "signalled": "signal",
-    "helped": "help",
+    "did": "do",
     "made": "make",
-    "installed": "install",
-    "meant": "mean",
-    "sought": "seek",
-    "arose": "arise",
-    "got": "get",
-    "rose": "rise",
-    "enrolled": "enroll",
-    "led": "lead",
-    "flew": "fly",
-    "bought": "buy",
-    "called": "call",
-    "labelled": "label",
-    "knew": "know",
-    "ran": "run",
-    "thought": "think",
-    "woke": "wake",
-    "ate": "eat",
-    "awoke": "awake",
-    "killed": "kill",
-    "fell": "fall",
-    "spoke": "speak",
-    "hit": "hit",
-    "heard": "hear",
-    "struck": "strike",
-    "'d": "have",
-    "won": "win",
-    "shelled": "shell",
-    "totalled": "total",
-    "grew": "grow",
-    "split": "split",
-    "caught": "catch",
-    "skid": "skid",
+    "began": "begin",
     "felt": "feel",
+    "called": "call",
+    "gave": "give",
+    "helped": "help",
+    "fell": "fall",
+    "led": "lead",
     "brought": "bring",
-    "equalled": "equal",
-    "chilled": "chill",
-    "swelled": "swell",
-    "pulled": "pull",
-    "propelled": "propel",
+    "rose": "rise",
+    "grew": "grow",
+    "spoke": "speak",
+    "thought": "think",
+    "sought": "seek",
+    "left": "leave",
     "chose": "choose",
-    "withdrew": "withdraw",
-    "shat": "shit",
-    "filled": "fill",
+    "won": "win",
+    "knew": "know",
+    "meant": "mean",
+    "totalled": "total",
+    "heard": "hear",
+    "got": "get",
+    "arose": "arise",
+    "drew": "draw",
+    "bought": "buy",
+    "ran": "run",
     "controlled": "control",
-    "analyzed": "analyze",
-    "spelt": "spell",
-    "broke": "break",
-    "mulled": "mull",
-    "slid": "slide",
-    "cubed": "cube",
-    "beat": "beat",
+    "hit": "hit",
+    "taught": "teach",
+    "struck": "strike",
     "dealt": "deal",
-    "use": "use",
-    "milled": "mill",
-    "fuelled": "fuel",
-    "sat": "sit",
-    "bit": "bite",
-    "doled": "dole",
-    "clasped": "clasp",
-    "rolled": "roll",
-    "hung": "hang",
-    "smelled": "smell",
-    "swam": "swim",
-    "squeezed": "squeeze",
-    "stuck": "stick",
-    "blew": "blow",
-    "dug": "dig",
-    "sunk": "sink",
-    "knelt": "kneel",
-    "oozed": "ooze",
-    "yelled": "yell",
-    "threw": "throw",
-    "spat": "spit",
-    "crew": "crow",
-    "swung": "swing",
-    "fought": "fight",
-    "seized": "seize",
-    "thrilled": "thrill",
-    "probed": "probe",
-    "froze": "freeze",
-    "dispelled": "dispel",
-    "forbade": "forbid",
-    "parallelled": "parallel",
-    "quit": "quit",
-    "fit": "fit",
-    "forgot": "forget",
+    "'d": "have",
+    "enrolled": "enroll",
+    "broke": "break",
+    "echoed": "echo",
+    "withdrew": "withdraw",
     "recalled": "recall",
+    "cancelled": "cancel",
     "polled": "poll",
-    "spilled": "spill",
-    "leapt": "leap",
-    "wove": "weave",
-    "stole": "steal",
-    "gelled": "gell",
+    "sat": "sit",
+    "rolled": "roll",
+    "signalled": "signal",
+    "caught": "catch",
+    "beat": "beat",
     "shot": "shoot",
+    "installed": "install",
+    "shelled": "shell",
+    "pulled": "pull",
+    "flew": "fly",
+    "split": "split",
+    "fought": "fight",
+    "equalled": "equal",
+    "labelled": "label",
     "spelled": "spell",
-    "doubted": "doubt",
+    "fuelled": "fuel",
+    "propelled": "propel",
+    "ate": "eat",
     "lit": "light",
-    "compelled": "compel",
-    "fulfilled": "fulfill",
-    "baptized": "baptize",
-    "misled": "mislead",
-    "instilled": "instill",
-    "sympathized": "sympathize",
-    "typed": "type",
-    "annulled": "annul",
-    "spun": "spin",
-    "tilled": "till",
-    "stung": "sting",
-    "balled": "ball",
-    "hilled": "hill",
-    "distilled": "distil",
-    "walled": "wall",
-    "trolled": "troll",
-    "sped": "speed",
-    "hurt": "hurt",
-    "repurchase": "repurchase",
-    "enthralled": "enthrall",
-    "shone": "shine",
-    "trod": "tread",
-    "sung": "sing",
+    "forgot": "forget",
+    "dug": "dig",
+    "quit": "quit",
+    "learnt": "learn",
+    "grouped": "group",
+    "threw": "throw",
+    "probed": "probe",
+    "slid": "slide",
+    "counselled": "counsel",
+    "fit": "fit",
+    "spelt": "spell",
     "modelled": "model",
     "initialled": "initial",
-    "billed": "bill",
-    "advertized": "advertise",
+    "typed": "type",
+    "froze": "freeze",
+    "wiped": "wipe",
+    "leapt": "leap",
+    "doubted": "doubt",
+    "rode": "ride",
+    "compelled": "compel",
+    "annulled": "annul",
+    "circled": "circle",
+    "hurt": "hurt",
     "hid": "hide",
+    "dreamt": "dream",
+    "woke": "wake",
+    "swelled": "swell",
+    "wove": "weave",
+    "gelled": "gell",
+    "forbade": "forbid",
+    "awoke": "awake",
+    "spun": "spin",
+    "cubed": "cube",
+    "walled": "wall",
+    "sped": "speed",
+    "enthralled": "enthrall",
+    "shone": "shine",
+    "funnelled": "funnel",
+    "strolled": "stroll",
+    "dove": "dive",
+    "knit": "knit",
+    "enamelled": "enamel",
+    "spat": "spit"
   }
 }

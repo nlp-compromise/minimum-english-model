@@ -1,151 +1,452 @@
-export default {
-  "oldest": "old",
-  "most": "most",
-  "deepest": "deep",
-  "earliest": "early",
-  "largest": "large",
-  "highest": "high",
-  "biggest": "big",
-  "least": "least",
-  "greatest": "great",
-  "best": "good",
-  "easiest": "easy",
-  "strangest": "strange",
-  "closest": "close",
-  "slowest": "slow",
-  "heaviest": "heavy",
-  "youngest": "young",
-  "wisest": "wise",
-  "smallest": "small",
-  "lowest": "low",
-  "latest": "late",
-  "third-largest": "third-largest",
-  "second-largest": "second-largest",
-  "finest": "fine",
-  "fastest": "fast",
-  "richest": "rich",
-  "tallest": "tall",
-  "newest": "new",
-  "third-highest": "third-highest",
-  "best-selling": "best-selling",
-  "healthiest": "healthy",
-  "strongest": "strong",
-  "busiest": "busy",
-  "freest": "free",
-  "poorest": "poor",
-  "nearest": "near",
-  "strictest": "strict",
-  "severest": "severe",
-  "cheapest": "cheap",
-  "fullest": "full",
-  "keenest": "keen",
-  "widest": "wide",
-  "worst": "bad",
-  "fifth-largest": "fifth-largest",
-  "southwest": "southwest",
-  "quickest": "quick",
-  "safest": "safe",
-  "wealthiest": "wealthy",
-  "longest": "long",
-  "simplest": "simple",
-  "costliest": "costly",
-  "best-known": "best-known",
-  "shortest": "short",
-  "fourth-largest": "fourth-largest",
-  "seventh-largest": "seventh-largest",
-  "second-biggest": "second-biggest",
-  "clearest": "clear",
-  "ninth-largest": "ninth-largest",
-  "next-largest": "next-largest",
-  "eighth-largest": "eighth-largest",
-  "single-largest": "single-largest",
-  "fastest-growing": "fastest-growing",
-  "freshest": "fresh",
-  "cleanest": "clean",
-  "coldest": "cold",
-  "broadest": "broad",
-  "second-highest": "second-highest",
-  "fiercest": "fierce",
-  "fifth-biggest": "fifth-biggest",
-  "sweetest": "sweet",
-  "whitest": "white",
-  "reddest": "red",
-  "sharpest": "sharp",
-  "hardest": "hard",
-  "loosest": "loose",
-  "best-suited": "best-suited",
-  "densest": "dense",
-  "quietest": "quiet",
-  "rarest": "rare",
-  "starkest": "stark",
-  "best-informed": "best-informed",
-  "way": "easy",
-  "steepest": "steep",
-  "greenest": "green",
-  "slightest": "slight",
-  "fewest": "few",
-  "toughest": "tough",
-  "weakest": "weak",
-  "narrowest": "narrow",
-  "second-busiest": "second-busiest",
-  "second-best": "second-best",
-  "second-strongest": "second-strongest",
-  "hottest": "hot",
-  "happiest": "happy",
-  "stickiest": "sticky",
-  "manliest": "manly",
-  "craziest": "crazy",
-  "warmest": "warm",
-  "prettiest": "pretty",
-  "proudest": "proud",
-  "dirtiest": "dirty",
-  "wildest": "wild",
-  "thinnest": "thin",
-  "fondest": "fond",
-  "noblest": "noble",
-  "sincerest": "sincere",
-  "heartiest": "hearty",
-  "sixth-largest": "sixth-largest",
-  "brightest": "bright",
-  "best-educated": "best-educated",
-  "surest": "sure",
-  "harshest": "harsh",
-  "shiest": "shy",
-  "lengthiest": "lengthy",
-  "riskiest": "risky",
-  "softest": "soft",
-  "best-managed": "best-managed",
-  "driest": "dry",
-  "next-best": "next-best",
-  "highest-quality": "highest-quality",
-  "tastiest": "tasty",
-  "wettest": "wet",
-  "straightest": "straight",
-  "coolest": "cool",
-  "tightest": "tight",
-  "loudest": "loud",
-  "deadliest": "deadly",
-  "boldest": "bold",
-  "commonest": "common",
-  "purest": "pure",
-  "best-qualified": "best-qualified",
-  "lightest": "light",
-  "friendliest": "friendly",
-  "barest": "bare",
-  "trickiest": "tricky",
-  "fittest": "fit",
-  "bleakest": "bleak",
-  "fairest": "fair",
-  "bumpiest": "bumpy",
-  "remotest": "remote",
-  "steadiest": "steady",
-  "briefest": "brief",
-  "dearest": "dear",
-  "kindest": "kind",
-  "funniest": "funny",
-  "best-rated": "best-rated",
-  "second-lowest": "second-lowest",
-  "nicest": "nice",
-  "best-connected": "best-connected",
-  "best-looking": "best-looking"
-}
+export default [
+  [
+    "most",
+    "most",
+    9392
+  ],
+  [
+    "best",
+    "good",
+    6714
+  ],
+  [
+    "least",
+    "least",
+    6144
+  ],
+  [
+    "largest",
+    "large",
+    3704
+  ],
+  [
+    "highest",
+    "high",
+    2713
+  ],
+  [
+    "latest",
+    "late",
+    1359
+  ],
+  [
+    "greatest",
+    "great",
+    1095
+  ],
+  [
+    "lowest",
+    "low",
+    978
+  ],
+  [
+    "nearest",
+    "near",
+    423
+  ],
+  [
+    "biggest",
+    "big",
+    393
+  ],
+  [
+    "strongest",
+    "strong",
+    296
+  ],
+  [
+    "earliest",
+    "early",
+    244
+  ],
+  [
+    "oldest",
+    "old",
+    192
+  ],
+  [
+    "closest",
+    "close",
+    175
+  ],
+  [
+    "smallest",
+    "small",
+    170
+  ],
+  [
+    "fastest",
+    "fast",
+    166
+  ],
+  [
+    "brightest",
+    "bright",
+    125
+  ],
+  [
+    "newest",
+    "new",
+    110
+  ],
+  [
+    "worst",
+    "bad",
+    104
+  ],
+  [
+    "longest",
+    "long",
+    102
+  ],
+  [
+    "poorest",
+    "poor",
+    94
+  ],
+  [
+    "broadest",
+    "broad",
+    89
+  ],
+  [
+    "youngest",
+    "young",
+    83
+  ],
+  [
+    "widest",
+    "wide",
+    75
+  ],
+  [
+    "fullest",
+    "full",
+    72
+  ],
+  [
+    "finest",
+    "fine",
+    60
+  ],
+  [
+    "busiest",
+    "busy",
+    60
+  ],
+  [
+    "simplest",
+    "simple",
+    49
+  ],
+  [
+    "weakest",
+    "weak",
+    48
+  ],
+  [
+    "deepest",
+    "deep",
+    43
+  ],
+  [
+    "easiest",
+    "easy",
+    41
+  ],
+  [
+    "shortest",
+    "short",
+    32
+  ],
+  [
+    "safest",
+    "safe",
+    29
+  ],
+  [
+    "healthiest",
+    "healthy",
+    22
+  ],
+  [
+    "warmest",
+    "warm",
+    21
+  ],
+  [
+    "narrowest",
+    "narrow",
+    20
+  ],
+  [
+    "cheapest",
+    "cheap",
+    19
+  ],
+  [
+    "slightest",
+    "slight",
+    19
+  ],
+  [
+    "southwest",
+    "southwest",
+    18
+  ],
+  [
+    "heaviest",
+    "heavy",
+    18
+  ],
+  [
+    "fewest",
+    "few",
+    17
+  ],
+  [
+    "hardest",
+    "hard",
+    16
+  ],
+  [
+    "driest",
+    "dry",
+    16
+  ],
+  [
+    "strictest",
+    "strict",
+    15
+  ],
+  [
+    "slowest",
+    "slow",
+    15
+  ],
+  [
+    "hottest",
+    "hot",
+    14
+  ],
+  [
+    "clearest",
+    "clear",
+    14
+  ],
+  [
+    "richest",
+    "rich",
+    13
+  ],
+  [
+    "quickest",
+    "quick",
+    10
+  ],
+  [
+    "wealthiest",
+    "wealthy",
+    10
+  ],
+  [
+    "toughest",
+    "tough",
+    10
+  ],
+  [
+    "sharpest",
+    "sharp",
+    8
+  ],
+  [
+    "harshest",
+    "harsh",
+    8
+  ],
+  [
+    "tallest",
+    "tall",
+    7
+  ],
+  [
+    "proudest",
+    "proud",
+    7
+  ],
+  [
+    "wettest",
+    "wet",
+    6
+  ],
+  [
+    "deadliest",
+    "deadly",
+    6
+  ],
+  [
+    "fairest",
+    "fair",
+    6
+  ],
+  [
+    "wisest",
+    "wise",
+    6
+  ],
+  [
+    "purest",
+    "pure",
+    5
+  ],
+  [
+    "steepest",
+    "steep",
+    4
+  ],
+  [
+    "freshest",
+    "fresh",
+    4
+  ],
+  [
+    "surest",
+    "sure",
+    4
+  ],
+  [
+    "riskiest",
+    "risky",
+    4
+  ],
+  [
+    "commonest",
+    "common",
+    4
+  ],
+  [
+    "quietest",
+    "quiet",
+    3
+  ],
+  [
+    "greenest",
+    "green",
+    3
+  ],
+  [
+    "dirtiest",
+    "dirty",
+    3
+  ],
+  [
+    "wildest",
+    "wild",
+    3
+  ],
+  [
+    "thinnest",
+    "thin",
+    3
+  ],
+  [
+    "tightest",
+    "tight",
+    3
+  ],
+  [
+    "keenest",
+    "keen",
+    3
+  ],
+  [
+    "fittest",
+    "fit",
+    3
+  ],
+  [
+    "severest",
+    "severe",
+    3
+  ],
+  [
+    "costliest",
+    "costly",
+    2
+  ],
+  [
+    "happiest",
+    "happy",
+    2
+  ],
+  [
+    "stickiest",
+    "sticky",
+    2
+  ],
+  [
+    "fondest",
+    "fond",
+    2
+  ],
+  [
+    "sincerest",
+    "sincere",
+    2
+  ],
+  [
+    "heartiest",
+    "hearty",
+    2
+  ],
+  [
+    "lengthiest",
+    "lengthy",
+    2
+  ],
+  [
+    "softest",
+    "soft",
+    2
+  ],
+  [
+    "cleanest",
+    "clean",
+    2
+  ],
+  [
+    "straightest",
+    "straight",
+    2
+  ],
+  [
+    "loudest",
+    "loud",
+    2
+  ],
+  [
+    "boldest",
+    "bold",
+    2
+  ],
+  [
+    "trickiest",
+    "tricky",
+    2
+  ],
+  [
+    "bleakest",
+    "bleak",
+    2
+  ],
+  [
+    "kindest",
+    "kind",
+    2
+  ],
+  [
+    "nicest",
+    "nice",
+    2
+  ]
+]
