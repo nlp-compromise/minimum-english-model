@@ -181,7 +181,7 @@ export default {
     "vies": "vie",
     "overlies": "overlie",
     "breathes": "breathe",
-    "is": "be",
+    "are": "is",
     "has": "have",
     "describes": "describe",
     "estimates": "estimate",

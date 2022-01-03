@@ -1,5 +1,5 @@
 export default [
-  ["is", "be", 267350],
+  ["are", "is", 267350],
   ["has", "have", 74555],
   ["provides", "provide", 13184],
   ["does", "do", 12739],

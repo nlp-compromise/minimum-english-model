@@ -6,6 +6,10 @@ export default {
         "scribe"
       ],
       [
+        "nnelled",
+        "nnel"
+      ],
+      [
         "efined",
         "efine"
       ],
@@ -24,6 +28,10 @@ export default {
       [
         "ckled",
         "ckle"
+      ],
+      [
+        "illed",
+        "ill"
       ],
       [
         "ooled",
@@ -126,6 +134,10 @@ export default {
         "py"
       ],
       [
+        "aked",
+        "ake"
+      ],
+      [
         "cked",
         "ck"
       ],
@@ -160,10 +172,6 @@ export default {
       [
         "iled",
         "il"
-      ],
-      [
-        "lled",
-        "l"
       ],
       [
         "pled",
@@ -398,64 +406,42 @@ export default {
         "ell"
       ]
     ],
-    "n": [
+    "e": [
       [
-        "ighten",
-        "ight"
+        "rote",
+        "rite"
       ],
       [
-        "idden",
-        "ide"
+        "rove",
+        "rive"
       ],
       [
-        "itten",
-        "ite"
+        "ame",
+        "ome"
       ],
       [
-        "otten",
-        "et"
-      ],
-      [
-        "aken",
-        "ake"
-      ],
-      [
-        "oken",
-        "eak"
-      ],
-      [
-        "aten",
-        "at"
-      ],
-      [
-        "sen",
-        "se"
-      ],
-      [
-        "ven",
-        "ve"
-      ],
-      [
-        "orn",
+        "ore",
         "ear"
+      ]
+    ],
+    "g": [
+      [
+        "lung",
+        "ling"
       ],
       [
-        "own",
-        "ow"
-      ],
-      [
-        "wn",
-        "w"
+        "ang",
+        "ing"
       ]
     ],
     "t": [
       [
-        "reamt",
-        "ream"
-      ],
-      [
         "uilt",
         "uild"
+      ],
+      [
+        "elt",
+        "eel"
       ],
       [
         "ent",
@@ -478,46 +464,6 @@ export default {
         "ut"
       ]
     ],
-    "e": [
-      [
-        "rote",
-        "rite"
-      ],
-      [
-        "rove",
-        "rive"
-      ],
-      [
-        "ame",
-        "ome"
-      ],
-      [
-        "ome",
-        "ome"
-      ],
-      [
-        "one",
-        "o"
-      ],
-      [
-        "ore",
-        "ear"
-      ]
-    ],
-    "g": [
-      [
-        "lung",
-        "ling"
-      ],
-      [
-        "rung",
-        "ring"
-      ],
-      [
-        "ang",
-        "ing"
-      ]
-    ],
     "w": [
       [
         "hrew",
@@ -534,18 +480,14 @@ export default {
         "ink"
       ],
       [
-        "unk",
-        "ink"
-      ],
-      [
         "ook",
         "ake"
       ]
     ],
-    "y": [
+    "n": [
       [
-        "ay",
-        "ie"
+        "wn",
+        "w"
       ]
     ]
   },
@@ -610,7 +552,6 @@ export default {
     "stressed": "stress",
     "passed": "pass",
     "assessed": "assess",
-    "focussed": "focus",
     "accessed": "access",
     "surpassed": "surpass",
     "witnessed": "witness",
@@ -649,9 +590,6 @@ export default {
     "liked": "like",
     "hiked": "hike",
     "disliked": "dislike",
-    "baked": "bake",
-    "flaked": "flake",
-    "staked": "stake",
     "mimicked": "mimic",
     "spiked": "spike",
     "belonged": "belong",
@@ -719,36 +657,14 @@ export default {
     "expedited": "expedite",
     "sited": "site",
     "boycotted": "boycott",
-    "called": "call",
-    "enrolled": "enroll",
-    "filled": "fill",
-    "recalled": "recall",
-    "polled": "poll",
-    "fulfilled": "fulfill",
-    "rolled": "roll",
-    "killed": "kill",
-    "installed": "install",
-    "shelled": "shell",
-    "pulled": "pull",
-    "spelled": "spell",
-    "drilled": "drill",
-    "chilled": "chill",
-    "billed": "bill",
-    "spilled": "spill",
-    "swelled": "swell",
-    "gelled": "gell",
-    "instilled": "instill",
-    "walled": "wall",
-    "enthralled": "enthrall",
-    "strolled": "stroll",
     "owed": "owe",
+    "dyed": "dye",
     "filed": "file",
     "compiled": "compile",
     "profiled": "profile",
     "reconciled": "reconcile",
     "domiciled": "domicile",
     "stockpiled": "stockpile",
-    "dyed": "dye",
     "erred": "err",
     "debuted": "debut",
     "sprouted": "sprout",
@@ -781,30 +697,30 @@ export default {
     "pleaded": "plead",
     "breaded": "bread",
     "unloaded": "unload",
-    "flown": "fly",
     "piloted": "pilot",
     "footed": "foot",
     "applauded": "applaud",
     "lauded": "laud",
     "scaled": "scale",
     "baled": "bale",
-    "lost": "lose",
     "created": "create",
     "delineated": "delineate",
     "recreated": "recreate",
     "permeated": "permeate",
+    "lost": "lose",
     "looked": "look",
     "booked": "book",
     "overlooked": "overlook",
     "cooked": "cook",
     "hooked": "hook",
+    "peaked": "peak",
+    "soaked": "soak",
+    "leaked": "leak",
     "met": "meet",
     "went": "go",
     "underwent": "undergo",
     "pent": "pen",
-    "pled": "plead",
     "fed": "feed",
-    "woven": "weave",
     "hoped": "hope",
     "sloped": "slope",
     "hauled": "haul",
@@ -813,18 +729,16 @@ export default {
     "solicited": "solicit",
     "elicited": "elicit",
     "added": "add",
-    "chosen": "choose",
-    "lessen": "less",
     "reaped": "reap",
     "fled": "flee",
-    "shone": "shine",
-    "was": "be",
-    "were": "be",
+    "was": "is",
+    "were": "are",
+    "been": "be",
     "had": "have",
     "did": "do",
     "made": "make",
     "began": "begin",
-    "felt": "feel",
+    "called": "call",
     "gave": "give",
     "helped": "help",
     "fell": "fall",
@@ -846,64 +760,82 @@ export default {
     "drew": "draw",
     "bought": "buy",
     "ran": "run",
+    "controlled": "control",
     "hit": "hit",
     "taught": "teach",
+    "travelled": "travel",
     "struck": "strike",
     "dealt": "deal",
+    "enrolled": "enroll",
     "broke": "break",
     "echoed": "echo",
     "withdrew": "withdraw",
+    "recalled": "recall",
+    "cancelled": "cancel",
+    "polled": "poll",
     "sat": "sit",
+    "rolled": "roll",
     "caught": "catch",
     "beat": "beat",
     "shot": "shoot",
+    "installed": "install",
+    "shelled": "shell",
+    "pulled": "pull",
     "flew": "fly",
     "split": "split",
     "fought": "fight",
+    "equalled": "equal",
+    "spelled": "spell",
+    "fuelled": "fuel",
+    "propelled": "propel",
     "ate": "eat",
     "lit": "light",
     "forgot": "forget",
     "dug": "dig",
     "quit": "quit",
-    "learnt": "learn",
     "grouped": "group",
     "probed": "probe",
     "slid": "slide",
+    "counselled": "counsel",
     "fit": "fit",
-    "spelt": "spell",
+    "initialled": "initial",
     "typed": "type",
     "froze": "freeze",
-    "leapt": "leap",
     "doubted": "doubt",
     "rode": "ride",
+    "compelled": "compel",
+    "annulled": "annul",
     "circled": "circle",
     "hurt": "hurt",
     "hid": "hide",
     "woke": "wake",
+    "swelled": "swell",
     "wove": "weave",
+    "gelled": "gell",
     "forbade": "forbid",
     "awoke": "awake",
     "spun": "spin",
     "cubed": "cube",
-    "sped": "speed",
+    "walled": "wall",
+    "underlay": "underlie",
+    "enthralled": "enthrall",
+    "shone": "shine",
+    "strolled": "stroll",
     "dove": "dive",
-    "knit": "knit",
+    "enamelled": "enamel",
     "spat": "spit",
-    "been": "be",
-    "begun": "begin",
-    "fallen": "fall",
-    "frozen": "freeze",
-    "hasten": "haste",
+    "bit": "bite",
+    "dispelled": "dispel",
+    "expelled": "expel",
+    "extolled": "extol",
     "hung": "hang",
-    "knelt": "kneel",
-    "lengthen": "length",
-    "run": "run",
-    "seen": "see",
+    "leapt": "leap",
+    "patrolled": "patrol",
+    "rivalled": "rival",
     "seeped": "seep",
-    "shrunken": "shrink",
-    "slain": "slay",
     "snuck": "sneak",
-    "stolen": "steal",
-    "sung": "sing"
+    "stole": "steal",
+    "stunk": "stink",
+    "wrung": "wring"
   }
 }

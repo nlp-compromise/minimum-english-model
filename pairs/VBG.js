@@ -1,9 +1,5 @@
 export default [
-  [
-    "including",
-    "include",
-    27563
-  ],
+  ["including", "include", 27563],
   ["following", "follow", 18003],
   ["being", "be", 16193],
   ["using", "use", 9684],
