@@ -26,10 +26,6 @@ export default {
         "cel"
       ],
       [
-        "nelling",
-        "nel"
-      ],
-      [
         "uelling",
         "uel"
       ],
@@ -76,26 +72,6 @@ export default {
       [
         "routing",
         "rout"
-      ],
-      [
-        "icizing",
-        "icize"
-      ],
-      [
-        "atizing",
-        "atize"
-      ],
-      [
-        "etizing",
-        "etize"
-      ],
-      [
-        "itizing",
-        "itize"
-      ],
-      [
-        "alyzing",
-        "alyze"
       ],
       [
         "ribing",
@@ -212,38 +188,6 @@ export default {
       [
         "outing",
         "out"
-      ],
-      [
-        "eezing",
-        "eeze"
-      ],
-      [
-        "dizing",
-        "dize"
-      ],
-      [
-        "gizing",
-        "gize"
-      ],
-      [
-        "lizing",
-        "lize"
-      ],
-      [
-        "mizing",
-        "mize"
-      ],
-      [
-        "nizing",
-        "nize"
-      ],
-      [
-        "rizing",
-        "rize"
-      ],
-      [
-        "sizing",
-        "size"
       ],
       [
         "bbing",
@@ -506,10 +450,6 @@ export default {
         "ly"
       ],
       [
-        "azing",
-        "aze"
-      ],
-      [
         "cing",
         "ce"
       ],
@@ -576,6 +516,10 @@ export default {
       [
         "ying",
         "y"
+      ],
+      [
+        "zing",
+        "ze"
       ]
     ]
   },
@@ -709,7 +653,6 @@ export default {
     "accessing": "access",
     "discussing": "discuss",
     "missing": "miss",
-    "focussing": "focus",
     "crossing": "cross",
     "pressing": "press",
     "expressing": "express",
@@ -748,6 +691,8 @@ export default {
     "amassing": "amass",
     "caucusing": "caucus",
     "kissing": "kiss",
+    "buzzing": "buzz",
+    "quizzing": "quiz",
     "breathing": "breathe",
     "swathing": "swathe",
     "sunbathing": "sunbathe",
@@ -859,11 +804,6 @@ export default {
     "aiding": "aid",
     "voiding": "void",
     "raiding": "raid",
-    "wholesaling": "wholesale",
-    "scaling": "scale",
-    "baling": "bale",
-    "descaling": "descale",
-    "whaling": "whale",
     "repairing": "repair",
     "chairing": "chair",
     "pairing": "pair",
@@ -872,6 +812,11 @@ export default {
     "creating": "create",
     "delineating": "delineate",
     "recreating": "recreate",
+    "wholesaling": "wholesale",
+    "scaling": "scale",
+    "baling": "bale",
+    "descaling": "descale",
+    "whaling": "whale",
     "adding": "add",
     "clouding": "cloud",
     "applauding": "applaud",
@@ -926,22 +871,22 @@ export default {
     "modelling": "model",
     "telling": "tell",
     "rolling": "roll",
-    "signalling": "signal",
     "installing": "install",
     "killing": "kill",
     "milling": "mill",
     "enrolling": "enroll",
-    "seizing": "seize",
     "recalling": "recall",
     "bestselling": "bestsel",
     "probing": "probe",
     "curling": "curl",
+    "tunnelling": "tunnel",
     "reselling": "resell",
     "tilling": "till",
     "billing": "bill",
     "distilling": "distil",
     "spelling": "spell",
     "propelling": "propel",
+    "channelling": "channel",
     "tolling": "toll",
     "refilling": "refill",
     "skiing": "ski",
@@ -950,8 +895,6 @@ export default {
     "felling": "fell",
     "polling": "poll",
     "instilling": "instill",
-    "bronzing": "bronze",
-    "advertizing": "advertise",
     "dispelling": "dispel",
     "spilling": "spill",
     "stalling": "stall",
@@ -963,23 +906,18 @@ export default {
     "gelling": "gell",
     "marshalling": "marshal",
     "initialling": "initial",
-    "enamelling": "enamel",
     "outselling": "outsell",
-    "buzzing": "buzz",
     "doubting": "doubt",
     "trolling": "troll",
-    "quizzing": "quiz",
     "patrolling": "patrol",
     "extolling": "extol",
     "backfilling": "backfill",
     "expelling": "expel",
+    "kennelling": "kennel",
     "strolling": "stroll",
-    "serial": "use",
     "sizzling": "sizzle",
     "landfilling": "landfil",
-    "proselytizing": "proselytize",
     "remodelling": "remodel",
-    "amortizing": "amortize",
     "usurping": "usurp",
     "underselling": "undersell"
   }

@@ -440,11 +440,6 @@ export default [
     6
   ],
   [
-    "dryer",
-    "dry",
-    5
-  ],
-  [
     "lengthier",
     "lengthy",
     5
