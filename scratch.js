@@ -1,4 +1,4 @@
-import arr from '/Users/spencer/mountain/minimum-model/pairs/VBD.js'
+import arr from '/Users/spencer/mountain/minimum-model/pairs/VBG.js'
 
 let have = {}
 arr.forEach(a => {

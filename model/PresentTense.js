@@ -34,10 +34,6 @@ export default {
         "ine"
       ],
       [
-        "ases",
-        "ase"
-      ],
-      [
         "uses",
         "use"
       ],
@@ -161,7 +157,6 @@ export default {
     "waxes": "wax",
     "indexes": "index",
     "reconvenes": "reconven",
-    "gases": "gas",
     "gasses": "gas",
     "redefines": "redefin",
     "harnesses": "harness",

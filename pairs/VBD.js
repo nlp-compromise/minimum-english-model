@@ -1979,7 +1979,7 @@ export default [
   ['wrung', 'wring'],
   ['ruined', 'ruin'],
   ['faked', 'fake'],
-  ['remaked', 'remake'],
+  ['remade', 'remake'],
   ['snaked', 'snake'],
   ['mistook', 'mistake'],
 ]

@@ -88,7 +88,6 @@ export default [
   ['shone', 'shine'],
   ['shot', 'shoot'],
   ['shown', 'show'],
-  ['shrunk', 'shrink'],
   ['shrunken', 'shrink'],
   ['shut', 'shut'],
   ['slain', 'slay'],
