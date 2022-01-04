@@ -1,126 +1,36 @@
 export default {
   "rules": {
     "s": [
-      [
-        "efines",
-        "efine"
-      ],
-      [
-        "venes",
-        "vene"
-      ],
-      [
-        "fines",
-        "fine"
-      ],
-      [
-        "cuses",
-        "cuse"
-      ],
-      [
-        "dies",
-        "dy"
-      ],
-      [
-        "lies",
-        "ly"
-      ],
-      [
-        "ties",
-        "ty"
-      ],
-      [
-        "ines",
-        "ine"
-      ],
-      [
-        "uses",
-        "use"
-      ],
-      [
-        "ics",
-        "ic"
-      ],
-      [
-        "hes",
-        "h"
-      ],
-      [
-        "ies",
-        "y"
-      ],
-      [
-        "nes",
-        "ne"
-      ],
-      [
-        "ses",
-        "se"
-      ],
-      [
-        "bs",
-        "b"
-      ],
-      [
-        "ds",
-        "d"
-      ],
-      [
-        "es",
-        "e"
-      ],
-      [
-        "fs",
-        "f"
-      ],
-      [
-        "gs",
-        "g"
-      ],
-      [
-        "hs",
-        "h"
-      ],
-      [
-        "ks",
-        "k"
-      ],
-      [
-        "ls",
-        "l"
-      ],
-      [
-        "ms",
-        "m"
-      ],
-      [
-        "ns",
-        "n"
-      ],
-      [
-        "os",
-        "o"
-      ],
-      [
-        "ps",
-        "p"
-      ],
-      [
-        "rs",
-        "r"
-      ],
-      [
-        "ts",
-        "t"
-      ],
-      [
-        "ws",
-        "w"
-      ],
-      [
-        "ys",
-        "y"
-      ]
+      ["efines", "efine"],
+      ["venes", "vene"],
+      ["fines", "fine"],
+      ["cuses", "cuse"],
+      ["dies", "dy"],
+      ["lies", "ly"],
+      ["ties", "ty"],
+      ["ines", "ine"],
+      ["uses", "use"],
+      ["ics", "ic"],
+      ["hes", "h"],
+      ["ies", "y"],
+      ["nes", "ne"],
+      ["ses", "se"],
+      ["bs", "b"],
+      ["ds", "d"],
+      ["es", "e"],
+      ["fs", "f"],
+      ["gs", "g"],
+      ["hs", "h"],
+      ["ks", "k"],
+      ["ls", "l"],
+      ["ms", "m"],
+      ["ns", "n"],
+      ["os", "o"],
+      ["ps", "p"],
+      ["rs", "r"],
+      ["ts", "t"],
+      ["ws", "w"],
+      ["ys", "y"]
     ]
   },
   "exceptions": {
@@ -212,6 +122,43 @@ export default {
     "hypothesizes": "hypothesize",
     "overestimates": "overestimate",
     "presages": "presage",
-    "orchestrates": "orchestrate"
+    "orchestrates": "orchestrate",
+    "says": "say",
+    "plays": "play",
+    "pays": "pay",
+    "employs": "employ",
+    "enjoys": "enjoy",
+    "buys": "buy",
+    "paragraphs": "paragraph",
+    "displays": "display",
+    "lays": "lay",
+    "conveys": "convey",
+    "stays": "stay",
+    "portrays": "portray",
+    "weighs": "weigh",
+    "destroys": "destroy",
+    "surveys": "survey",
+    "outweighs": "outweigh",
+    "deploys": "deploy",
+    "repays": "repay",
+    "obeys": "obey",
+    "alloys": "alloy",
+    "overlays": "overlay",
+    "delays": "delay",
+    "photographs": "photograph",
+    "preys": "prey",
+    "keys": "key",
+    "holidays": "holiday",
+    "laughs": "laugh",
+    "disobeys": "disobey",
+    "defrays": "defray",
+    "sprays": "spray",
+    "downplays": "downplay",
+    "relays": "relay",
+    "berths": "berth",
+    "roughs": "rough",
+    "buoys": "buoy",
+    "arrays": "array",
+    "assays": "assay"
   }
 }

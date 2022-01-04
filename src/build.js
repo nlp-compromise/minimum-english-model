@@ -22,7 +22,7 @@ let nums = []
 
 const compute = function (wordPairs, tag) {
   let arr = wordPairs//Object.entries(wordPairs)
-  let model = learn(arr, { inverse: false })
+  let model = learn(arr)
   console.log(`\n\n======${tag}`)
   console.log('  ', arr.length.toLocaleString(), `words `)
   console.log('   → ', allRules(model).length, 'rules,', Object.keys(model.exceptions).length, 'exceptions')

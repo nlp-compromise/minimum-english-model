@@ -1,526 +1,136 @@
 export default {
   "rules": {
     "g": [
-      [
-        "ceeding",
-        "ceed"
-      ],
-      [
-        "hanging",
-        "hange"
-      ],
-      [
-        "ringing",
-        "ring"
-      ],
-      [
-        "harging",
-        "harge"
-      ],
-      [
-        "eathing",
-        "eath"
-      ],
-      [
-        "celling",
-        "cel"
-      ],
-      [
-        "uelling",
-        "uel"
-      ],
-      [
-        "velling",
-        "vel"
-      ],
-      [
-        "welling",
-        "well"
-      ],
-      [
-        "rilling",
-        "rill"
-      ],
-      [
-        "ramming",
-        "ram"
-      ],
-      [
-        "efining",
-        "efine"
-      ],
-      [
-        "keeping",
-        "keepe"
-      ],
-      [
-        "evering",
-        "ever"
-      ],
-      [
-        "raising",
-        "raise"
-      ],
-      [
-        "reating",
-        "reat"
-      ],
-      [
-        "ighting",
-        "ight"
-      ],
-      [
-        "routing",
-        "rout"
-      ],
-      [
-        "ribing",
-        "ribe"
-      ],
-      [
-        "adding",
-        "ad"
-      ],
-      [
-        "eeding",
-        "eed"
-      ],
-      [
-        "anging",
-        "ange"
-      ],
-      [
-        "inging",
-        "ing"
-      ],
-      [
-        "arging",
-        "arge"
-      ],
-      [
-        "making",
-        "mak"
-      ],
-      [
-        "ulling",
-        "ull"
-      ],
-      [
-        "ooling",
-        "ool"
-      ],
-      [
-        "fining",
-        "fine"
-      ],
-      [
-        "honing",
-        "hone"
-      ],
-      [
-        "eeping",
-        "eep"
-      ],
-      [
-        "ouping",
-        "oup"
-      ],
-      [
-        "fering",
-        "fer"
-      ],
-      [
-        "hering",
-        "her"
-      ],
-      [
-        "vering",
-        "ver"
-      ],
-      [
-        "horing",
-        "hore"
-      ],
-      [
-        "toring",
-        "tor"
-      ],
-      [
-        "aising",
-        "aise"
-      ],
-      [
-        "bating",
-        "bate"
-      ],
-      [
-        "eating",
-        "eat"
-      ],
-      [
-        "oating",
-        "oat"
-      ],
-      [
-        "biting",
-        "bit"
-      ],
-      [
-        "citing",
-        "cite"
-      ],
-      [
-        "diting",
-        "dit"
-      ],
-      [
-        "riting",
-        "rite"
-      ],
-      [
-        "siting",
-        "sit"
-      ],
-      [
-        "asting",
-        "ast"
-      ],
-      [
-        "outing",
-        "out"
-      ],
-      [
-        "bbing",
-        "b"
-      ],
-      [
-        "mbing",
-        "mb"
-      ],
-      [
-        "rbing",
-        "rb"
-      ],
-      [
-        "ubing",
-        "ube"
-      ],
-      [
-        "ading",
-        "ad"
-      ],
-      [
-        "dding",
-        "d"
-      ],
-      [
-        "iding",
-        "ide"
-      ],
-      [
-        "oding",
-        "ode"
-      ],
-      [
-        "uding",
-        "ude"
-      ],
-      [
-        "nging",
-        "nge"
-      ],
-      [
-        "rging",
-        "rge"
-      ],
-      [
-        "thing",
-        "th"
-      ],
-      [
-        "oking",
-        "oke"
-      ],
-      [
-        "aling",
-        "al"
-      ],
-      [
-        "bling",
-        "ble"
-      ],
-      [
-        "cling",
-        "cle"
-      ],
-      [
-        "dling",
-        "dle"
-      ],
-      [
-        "eling",
-        "el"
-      ],
-      [
-        "fling",
-        "fle"
-      ],
-      [
-        "gling",
-        "gle"
-      ],
-      [
-        "iling",
-        "il"
-      ],
-      [
-        "kling",
-        "kle"
-      ],
-      [
-        "pling",
-        "ple"
-      ],
-      [
-        "tling",
-        "tle"
-      ],
-      [
-        "uling",
-        "ule"
-      ],
-      [
-        "wling",
-        "wl"
-      ],
-      [
-        "aming",
-        "am"
-      ],
-      [
-        "iming",
-        "im"
-      ],
-      [
-        "mming",
-        "m"
-      ],
-      [
-        "oming",
-        "om"
-      ],
-      [
-        "aning",
-        "an"
-      ],
-      [
-        "ening",
-        "en"
-      ],
-      [
-        "ining",
-        "in"
-      ],
-      [
-        "oning",
-        "on"
-      ],
-      [
-        "aping",
-        "ape"
-      ],
-      [
-        "iping",
-        "ipe"
-      ],
-      [
-        "lping",
-        "lp"
-      ],
-      [
-        "mping",
-        "mp"
-      ],
-      [
-        "oping",
-        "op"
-      ],
-      [
-        "pping",
-        "p"
-      ],
-      [
-        "yping",
-        "ype"
-      ],
-      [
-        "aring",
-        "ar"
-      ],
-      [
-        "ering",
-        "er"
-      ],
-      [
-        "iring",
-        "ire"
-      ],
-      [
-        "oring",
-        "or"
-      ],
-      [
-        "uring",
-        "ure"
-      ],
-      [
-        "asing",
-        "ase"
-      ],
-      [
-        "ising",
-        "ise"
-      ],
-      [
-        "using",
-        "use"
-      ],
-      [
-        "ating",
-        "ate"
-      ],
-      [
-        "cting",
-        "ct"
-      ],
-      [
-        "eting",
-        "et"
-      ],
-      [
-        "fting",
-        "ft"
-      ],
-      [
-        "iting",
-        "it"
-      ],
-      [
-        "lting",
-        "lt"
-      ],
-      [
-        "nting",
-        "nt"
-      ],
-      [
-        "oting",
-        "ote"
-      ],
-      [
-        "pting",
-        "pt"
-      ],
-      [
-        "rting",
-        "rt"
-      ],
-      [
-        "sting",
-        "st"
-      ],
-      [
-        "tting",
-        "t"
-      ],
-      [
-        "uting",
-        "ute"
-      ],
-      [
-        "owing",
-        "ow"
-      ],
-      [
-        "dying",
-        "dy"
-      ],
-      [
-        "lying",
-        "ly"
-      ],
-      [
-        "cing",
-        "ce"
-      ],
-      [
-        "ding",
-        "d"
-      ],
-      [
-        "eing",
-        "e"
-      ],
-      [
-        "fing",
-        "f"
-      ],
-      [
-        "ging",
-        "ge"
-      ],
-      [
-        "hing",
-        "h"
-      ],
-      [
-        "king",
-        "k"
-      ],
-      [
-        "ming",
-        "m"
-      ],
-      [
-        "ning",
-        "n"
-      ],
-      [
-        "oing",
-        "o"
-      ],
-      [
-        "ring",
-        "r"
-      ],
-      [
-        "sing",
-        "se"
-      ],
-      [
-        "uing",
-        "ue"
-      ],
-      [
-        "ving",
-        "ve"
-      ],
-      [
-        "wing",
-        "w"
-      ],
-      [
-        "xing",
-        "x"
-      ],
-      [
-        "ying",
-        "y"
-      ],
-      [
-        "zing",
-        "ze"
-      ]
+      ["ceeding", "ceed"],
+      ["hanging", "hange"],
+      ["ringing", "ring"],
+      ["harging", "harge"],
+      ["eathing", "eath"],
+      ["celling", "cel"],
+      ["uelling", "uel"],
+      ["velling", "vel"],
+      ["welling", "well"],
+      ["rilling", "rill"],
+      ["ramming", "ram"],
+      ["efining", "efine"],
+      ["keeping", "keepe"],
+      ["evering", "ever"],
+      ["raising", "raise"],
+      ["reating", "reat"],
+      ["ighting", "ight"],
+      ["routing", "rout"],
+      ["ribing", "ribe"],
+      ["adding", "ad"],
+      ["eeding", "eed"],
+      ["anging", "ange"],
+      ["inging", "ing"],
+      ["arging", "arge"],
+      ["making", "mak"],
+      ["ulling", "ull"],
+      ["ooling", "ool"],
+      ["fining", "fine"],
+      ["honing", "hone"],
+      ["eeping", "eep"],
+      ["ouping", "oup"],
+      ["fering", "fer"],
+      ["hering", "her"],
+      ["vering", "ver"],
+      ["horing", "hore"],
+      ["toring", "tor"],
+      ["aising", "aise"],
+      ["bating", "bate"],
+      ["eating", "eat"],
+      ["oating", "oat"],
+      ["biting", "bit"],
+      ["citing", "cite"],
+      ["diting", "dit"],
+      ["riting", "rite"],
+      ["siting", "sit"],
+      ["asting", "ast"],
+      ["outing", "out"],
+      ["bbing", "b"],
+      ["mbing", "mb"],
+      ["rbing", "rb"],
+      ["ubing", "ube"],
+      ["ading", "ad"],
+      ["dding", "d"],
+      ["iding", "ide"],
+      ["oding", "ode"],
+      ["uding", "ude"],
+      ["nging", "nge"],
+      ["rging", "rge"],
+      ["thing", "th"],
+      ["oking", "oke"],
+      ["aling", "al"],
+      ["bling", "ble"],
+      ["cling", "cle"],
+      ["dling", "dle"],
+      ["eling", "el"],
+      ["fling", "fle"],
+      ["gling", "gle"],
+      ["iling", "il"],
+      ["kling", "kle"],
+      ["pling", "ple"],
+      ["tling", "tle"],
+      ["uling", "ule"],
+      ["wling", "wl"],
+      ["aming", "am"],
+      ["iming", "im"],
+      ["mming", "m"],
+      ["oming", "om"],
+      ["aning", "an"],
+      ["ening", "en"],
+      ["ining", "in"],
+      ["oning", "on"],
+      ["aping", "ape"],
+      ["iping", "ipe"],
+      ["lping", "lp"],
+      ["mping", "mp"],
+      ["oping", "op"],
+      ["pping", "p"],
+      ["yping", "ype"],
+      ["aring", "ar"],
+      ["ering", "er"],
+      ["iring", "ire"],
+      ["oring", "or"],
+      ["uring", "ure"],
+      ["asing", "ase"],
+      ["ising", "ise"],
+      ["using", "use"],
+      ["ating", "ate"],
+      ["cting", "ct"],
+      ["eting", "et"],
+      ["fting", "ft"],
+      ["iting", "it"],
+      ["lting", "lt"],
+      ["nting", "nt"],
+      ["oting", "ote"],
+      ["pting", "pt"],
+      ["rting", "rt"],
+      ["sting", "st"],
+      ["tting", "t"],
+      ["uting", "ute"],
+      ["owing", "ow"],
+      ["dying", "dy"],
+      ["lying", "ly"],
+      ["cing", "ce"],
+      ["ding", "d"],
+      ["eing", "e"],
+      ["fing", "f"],
+      ["ging", "ge"],
+      ["hing", "h"],
+      ["king", "k"],
+      ["ming", "m"],
+      ["ning", "n"],
+      ["oing", "o"],
+      ["ring", "r"],
+      ["sing", "se"],
+      ["uing", "ue"],
+      ["ving", "ve"],
+      ["wing", "w"],
+      ["xing", "x"],
+      ["ying", "y"],
+      ["zing", "ze"]
     ]
   },
   "exceptions": {
@@ -919,6 +529,214 @@ export default {
     "landfilling": "landfil",
     "remodelling": "remodel",
     "usurping": "usurp",
-    "underselling": "undersell"
+    "underselling": "undersell",
+    "regarding": "regard",
+    "according": "accord",
+    "heading": "head",
+    "leading": "lead",
+    "building": "build",
+    "funding": "fund",
+    "depending": "depend",
+    "performing": "perform",
+    "finding": "find",
+    "setting": "set",
+    "ending": "end",
+    "expanding": "expand",
+    "getting": "get",
+    "attending": "attend",
+    "understanding": "understand",
+    "responding": "respond",
+    "submitting": "submit",
+    "surrounding": "surround",
+    "holding": "hold",
+    "pending": "pend",
+    "spending": "spend",
+    "extending": "extend",
+    "forming": "form",
+    "sending": "send",
+    "informing": "inform",
+    "amending": "amend",
+    "reading": "read",
+    "standing": "stand",
+    "confirming": "confirm",
+    "recording": "record",
+    "cropping": "crop",
+    "branding": "brand",
+    "farming": "farm",
+    "sitting": "sit",
+    "permitting": "permit",
+    "demanding": "demand",
+    "transmitting": "transmit",
+    "transforming": "transform",
+    "recommending": "recommend",
+    "betting": "bet",
+    "binding": "bind",
+    "committing": "commit",
+    "loading": "load",
+    "rounding": "round",
+    "awarding": "award",
+    "spreading": "spread",
+    "misleading": "mislead",
+    "dropping": "drop",
+    "welding": "weld",
+    "carding": "card",
+    "safeguarding": "safeguard",
+    "unloading": "unload",
+    "offsetting": "offset",
+    "grinding": "grind",
+    "stopping": "stop",
+    "defending": "defend",
+    "trending": "trend",
+    "bonding": "bond",
+    "harming": "harm",
+    "reforming": "reform",
+    "forwarding": "forward",
+    "intending": "intend",
+    "withholding": "withhold",
+    "rebuilding": "rebuild",
+    "yielding": "yield",
+    "letting": "let",
+    "moulding": "mould",
+    "blending": "blend",
+    "lending": "lend",
+    "founding": "found",
+    "hitting": "hit",
+    "filming": "film",
+    "upholding": "uphold",
+    "affirming": "affirm",
+    "conforming": "conform",
+    "sounding": "sound",
+    "netting": "net",
+    "rescinding": "rescind",
+    "offending": "offend",
+    "bending": "bend",
+    "popping": "pop",
+    "affording": "afford",
+    "reminding": "remind",
+    "tending": "tend",
+    "descending": "descend",
+    "fitting": "fit",
+    "rebounding": "rebound",
+    "reaffirming": "reaffirm",
+    "splitting": "split",
+    "knitting": "knit",
+    "emitting": "emit",
+    "boarding": "board",
+    "rewarding": "reward",
+    "threading": "thread",
+    "crowding": "crowd",
+    "spearheading": "spearhead",
+    "winding": "wind",
+    "compounding": "compound",
+    "handing": "hand",
+    "proofreading": "proofread",
+    "slitting": "slit",
+    "ascending": "ascend",
+    "swimming": "swim",
+    "suspending": "suspend",
+    "unfolding": "unfold",
+    "arming": "arm",
+    "forgetting": "forget",
+    "trimming": "trim",
+    "confounding": "confound",
+    "astounding": "astound",
+    "shopping": "shop",
+    "vetting": "vet",
+    "topping": "top",
+    "babysitting": "babysit",
+    "banding": "band",
+    "deeming": "deem",
+    "vending": "vend",
+    "microfilming": "microfilm",
+    "admitting": "admit",
+    "underperforming": "underperform",
+    "landing": "land",
+    "remitting": "remit",
+    "disregarding": "disregard",
+    "corresponding": "correspond",
+    "quitting": "quit",
+    "sanding": "sand",
+    "retreading": "retread",
+    "omitting": "omit",
+    "expending": "expend",
+    "wetting": "wet",
+    "outperforming": "outperform",
+    "commending": "commend",
+    "pitting": "pit",
+    "underfunding": "underfund",
+    "scalding": "scald",
+    "kneading": "knead",
+    "blinding": "blind",
+    "wounding": "wound",
+    "folding": "fold",
+    "warming": "warm",
+    "contending": "contend",
+    "unraveling": "unravel",
+    "minding": "mind",
+    "breading": "bread",
+    "resubmitting": "resubmit",
+    "pounding": "pound",
+    "offloading": "offload",
+    "singeing": "singe",
+    "outfitting": "outfit",
+    "upsetting": "upset",
+    "typesetting": "typeset",
+    "unwinding": "unwind",
+    "grounding": "ground",
+    "guarding": "guard",
+    "embalming": "embalm",
+    "overcrowding": "overcrowd",
+    "commanding": "command",
+    "jetting": "jet",
+    "transcending": "transcend",
+    "withstanding": "withstand",
+    "molding": "mold",
+    "befitting": "befit",
+    "firming": "firm",
+    "brimming": "brim",
+    "pretending": "pretend",
+    "chopping": "chop",
+    "stranding": "strand",
+    "appending": "append",
+    "redeeming": "redeem",
+    "shielding": "shield",
+    "overspending": "overspend",
+    "pollarding": "pollard",
+    "comprehending": "comprehend",
+    "misunderstanding": "misunderstand",
+    "overwhelming": "overwhelm",
+    "melding": "meld",
+    "propping": "prop",
+    "refunding": "refund",
+    "cueing": "cue",
+    "seeming": "seem",
+    "intercropping": "intercrop",
+    "spitting": "spit",
+    "programing": "program",
+    "retarding": "retard",
+    "refitting": "refit",
+    "regretting": "regret",
+    "apprehending": "apprehend",
+    "rewording": "reword",
+    "besetting": "beset",
+    "pleading": "plead",
+    "teeming": "teem",
+    "homebuilding": "homebuild",
+    "petting": "pet",
+    "shepherding": "shepherd",
+    "wording": "word",
+    "mounding": "mound",
+    "impending": "impend",
+    "misreading": "misread",
+    "skimming": "skim",
+    "scaffolding": "scaffold",
+    "befriending": "befriend",
+    "overloading": "overload",
+    "parceling": "parcel",
+    "remanding": "remand",
+    "disarming": "disarm",
+    "acquitting": "acquit",
+    "debonding": "debond",
+    "alarming": "alarm"
   }
 }

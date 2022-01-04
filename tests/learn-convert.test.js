@@ -3,7 +3,7 @@ import { learn, convert, compress, uncompress, validate } from '/Users/spencer/m
 
 import JJR from '../pairs/JJR.js'
 import JJS from '../pairs/JJS.js'
-import RBR from '../pairs/RBR.js'
+import RB from '../pairs/RB.js'
 import VBD from '../pairs/VBD.js'
 import VBG from '../pairs/VBG.js'
 import VBN from '../pairs/VBN.js'
@@ -12,7 +12,7 @@ import VBZ from '../pairs/VBZ.js'
 let all = [
   [JJR, 'JJR'],
   [JJS, 'JJS'],
-  [RBR, 'RBR'],
+  [RB, 'RB'],
   [VBD, 'VBD'],
   [VBG, 'VBG'],
   [VBN, 'VBN'],
@@ -22,7 +22,7 @@ let all = [
 test('test:', function (t) {
   all.forEach(a => {
     let [words, name] = a
-    let pairs = Object.entries(words)
+    let pairs = words//Object.entries(words)
     pairs = validate(pairs, { inverse: false })//allow right-side dupes
     let model = learn(pairs, { inverse: false })
     model = compress(model)

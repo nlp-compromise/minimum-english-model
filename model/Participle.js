@@ -5,76 +5,37 @@ export default {
         "ighten",
         "ight"
       ],
-      [
-        "idden",
-        "ide"
-      ],
-      [
-        "itten",
-        "ite"
-      ],
-      [
-        "otten",
-        "et"
-      ],
-      [
-        "aken",
-        "ake"
-      ],
-      [
-        "aten",
-        "at"
-      ],
-      [
-        "sen",
-        "se"
-      ],
-      [
-        "ven",
-        "ve"
-      ],
-      [
-        "orn",
-        "ear"
-      ],
-      [
-        "own",
-        "ow"
-      ],
-      [
-        "wn",
-        "w"
-      ]
+      ["idden", "ide"],
+      ["itten", "ite"],
+      ["otten", "et"],
+      ["aken", "ake"],
+      ["aten", "at"],
+      ["sen", "se"],
+      ["ven", "ve"],
+      ["orn", "ear"],
+      ["own", "ow"],
+      ["wn", "w"]
     ],
     "g": [
       [
         "lung",
         "ling"
       ],
-      [
-        "rung",
-        "ring"
-      ]
+      ["rung", "ring"]
     ],
     "d": [
       [
         "ved",
         "ve"
       ],
-      [
-        "aid",
-        "ay"
-      ]
+      ["aid", "ay"]
     ],
     "e": [
       [
         "ome",
         "ome"
       ],
-      [
-        "one",
-        "o"
-      ]
+      ["one", "o"]
     ],
     "k": [
       [
@@ -87,18 +48,9 @@ export default {
         "ent",
         "end"
       ],
-      [
-        "ept",
-        "eep"
-      ],
-      [
-        "et",
-        "et"
-      ],
-      [
-        "ut",
-        "ut"
-      ]
+      ["ept", "eep"],
+      ["et", "et"],
+      ["ut", "ut"]
     ]
   },
   "exceptions": {
@@ -161,6 +113,12 @@ export default {
     "spun": "spin",
     "stolen": "steal",
     "sung": "sing",
-    "wound": "wind"
+    "wound": "wind",
+    "bet": "bet",
+    "dived": "dive",
+    "set": "set",
+    "shaved": "shave",
+    "thrived": "thrive",
+    "upset": "upset"
   }
 }
