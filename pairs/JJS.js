@@ -1,452 +1,372 @@
 export default [
-  [
-    "most",
-    "most",
-    9392
-  ],
-  [
-    "best",
-    "good",
-    6714
-  ],
-  [
-    "least",
-    "least",
-    6144
-  ],
-  [
-    "largest",
-    "large",
-    3704
-  ],
-  [
-    "highest",
-    "high",
-    2713
-  ],
-  [
-    "latest",
-    "late",
-    1359
-  ],
-  [
-    "greatest",
-    "great",
-    1095
-  ],
-  [
-    "lowest",
-    "low",
-    978
-  ],
-  [
-    "nearest",
-    "near",
-    423
-  ],
-  [
-    "biggest",
-    "big",
-    393
-  ],
-  [
-    "strongest",
-    "strong",
-    296
-  ],
-  [
-    "earliest",
-    "early",
-    244
-  ],
-  [
-    "oldest",
-    "old",
-    192
-  ],
-  [
-    "closest",
-    "close",
-    175
-  ],
-  [
-    "smallest",
-    "small",
-    170
-  ],
-  [
-    "fastest",
-    "fast",
-    166
-  ],
-  [
-    "brightest",
-    "bright",
-    125
-  ],
-  [
-    "newest",
-    "new",
-    110
-  ],
-  [
-    "worst",
-    "bad",
-    104
-  ],
-  [
-    "longest",
-    "long",
-    102
-  ],
-  [
-    "poorest",
-    "poor",
-    94
-  ],
-  [
-    "broadest",
-    "broad",
-    89
-  ],
-  [
-    "youngest",
-    "young",
-    83
-  ],
-  [
-    "widest",
-    "wide",
-    75
-  ],
-  [
-    "fullest",
-    "full",
-    72
-  ],
-  [
-    "finest",
-    "fine",
-    60
-  ],
-  [
-    "busiest",
-    "busy",
-    60
-  ],
-  [
-    "simplest",
-    "simple",
-    49
-  ],
-  [
-    "weakest",
-    "weak",
-    48
-  ],
-  [
-    "deepest",
-    "deep",
-    43
-  ],
-  [
-    "easiest",
-    "easy",
-    41
-  ],
-  [
-    "shortest",
-    "short",
-    32
-  ],
-  [
-    "safest",
-    "safe",
-    29
-  ],
-  [
-    "healthiest",
-    "healthy",
-    22
-  ],
-  [
-    "warmest",
-    "warm",
-    21
-  ],
-  [
-    "narrowest",
-    "narrow",
-    20
-  ],
-  [
-    "cheapest",
-    "cheap",
-    19
-  ],
-  [
-    "slightest",
-    "slight",
-    19
-  ],
-  [
-    "southwest",
-    "southwest",
-    18
-  ],
-  [
-    "heaviest",
-    "heavy",
-    18
-  ],
-  [
-    "fewest",
-    "few",
-    17
-  ],
-  [
-    "hardest",
-    "hard",
-    16
-  ],
-  [
-    "driest",
-    "dry",
-    16
-  ],
-  [
-    "strictest",
-    "strict",
-    15
-  ],
-  [
-    "slowest",
-    "slow",
-    15
-  ],
-  [
-    "hottest",
-    "hot",
-    14
-  ],
-  [
-    "clearest",
-    "clear",
-    14
-  ],
-  [
-    "richest",
-    "rich",
-    13
-  ],
-  [
-    "quickest",
-    "quick",
-    10
-  ],
-  [
-    "wealthiest",
-    "wealthy",
-    10
-  ],
-  [
-    "toughest",
-    "tough",
-    10
-  ],
-  [
-    "sharpest",
-    "sharp",
-    8
-  ],
-  [
-    "harshest",
-    "harsh",
-    8
-  ],
-  [
-    "tallest",
-    "tall",
-    7
-  ],
-  [
-    "proudest",
-    "proud",
-    7
-  ],
-  [
-    "wettest",
-    "wet",
-    6
-  ],
-  [
-    "deadliest",
-    "deadly",
-    6
-  ],
-  [
-    "fairest",
-    "fair",
-    6
-  ],
-  [
-    "wisest",
-    "wise",
-    6
-  ],
-  [
-    "purest",
-    "pure",
-    5
-  ],
-  [
-    "steepest",
-    "steep",
-    4
-  ],
-  [
-    "freshest",
-    "fresh",
-    4
-  ],
-  [
-    "surest",
-    "sure",
-    4
-  ],
-  [
-    "riskiest",
-    "risky",
-    4
-  ],
-  [
-    "commonest",
-    "common",
-    4
-  ],
-  [
-    "quietest",
-    "quiet",
-    3
-  ],
-  [
-    "greenest",
-    "green",
-    3
-  ],
-  [
-    "dirtiest",
-    "dirty",
-    3
-  ],
-  [
-    "wildest",
-    "wild",
-    3
-  ],
-  [
-    "thinnest",
-    "thin",
-    3
-  ],
-  [
-    "tightest",
-    "tight",
-    3
-  ],
-  [
-    "keenest",
-    "keen",
-    3
-  ],
-  [
-    "fittest",
-    "fit",
-    3
-  ],
-  [
-    "severest",
-    "severe",
-    3
-  ],
-  [
-    "costliest",
-    "costly",
-    2
-  ],
-  [
-    "happiest",
-    "happy",
-    2
-  ],
-  [
-    "stickiest",
-    "sticky",
-    2
-  ],
-  [
-    "fondest",
-    "fond",
-    2
-  ],
-  [
-    "sincerest",
-    "sincere",
-    2
-  ],
-  [
-    "heartiest",
-    "hearty",
-    2
-  ],
-  [
-    "lengthiest",
-    "lengthy",
-    2
-  ],
-  [
-    "softest",
-    "soft",
-    2
-  ],
-  [
-    "cleanest",
-    "clean",
-    2
-  ],
-  [
-    "straightest",
-    "straight",
-    2
-  ],
-  [
-    "loudest",
-    "loud",
-    2
-  ],
-  [
-    "boldest",
-    "bold",
-    2
-  ],
-  [
-    "trickiest",
-    "tricky",
-    2
-  ],
-  [
-    "bleakest",
-    "bleak",
-    2
-  ],
-  [
-    "kindest",
-    "kind",
-    2
-  ],
-  [
-    "nicest",
-    "nice",
-    2
-  ]
+  ["good", "best",],
+  ["least", "least",],
+  ["large", "largest",],
+  ["high", "highest",],
+  ["late", "latest",],
+  ["great", "greatest",],
+  ["low", "lowest",],
+  ["near", "nearest",],
+  ["big", "biggest",],
+  ["strong", "strongest",],
+  ["early", "earliest",],
+  ["old", "oldest",],
+  ["close", "closest",],
+  ["small", "smallest",],
+  ["fast", "fastest",],
+  ["bright", "brightest",],
+  ["new", "newest",],
+  ["bad", "worst",],
+  ["long", "longest",],
+  ["poor", "poorest",],
+  ["broad", "broadest",],
+  ["young", "youngest",],
+  ["wide", "widest",],
+  ["full", "fullest",],
+  ["fine", "finest",],
+  ["busy", "busiest",],
+  ["simple", "simplest",],
+  ["weak", "weakest",],
+  ["deep", "deepest",],
+  ["easy", "easiest",],
+  ["short", "shortest",],
+  ["safe", "safest",],
+  ["healthy", "healthiest",],
+  ["warm", "warmest",],
+  ["narrow", "narrowest",],
+  ["cheap", "cheapest",],
+  ["slight", "slightest",],
+  ["southwest", "southwest",],
+  ["heavy", "heaviest",],
+  ["few", "fewest",],
+  ["hard", "hardest",],
+  ["dry", "driest",],
+  ["strict", "strictest",],
+  ["slow", "slowest",],
+  ["hot", "hottest",],
+  ["clear", "clearest",],
+  ["rich", "richest",],
+  ["quick", "quickest",],
+  ["wealthy", "wealthiest",],
+  ["tough", "toughest",],
+  ["sharp", "sharpest",],
+  ["harsh", "harshest",],
+  ["tall", "tallest",],
+  ["proud", "proudest",],
+  ["wet", "wettest",],
+  ["deadly", "deadliest",],
+  ["fair", "fairest",],
+  ["wise", "wisest",],
+  ["pure", "purest",],
+  ["steep", "steepest",],
+  ["fresh", "freshest",],
+  ["sure", "surest",],
+  ["risky", "riskiest",],
+  ["common", "commonest",],
+  ["quiet", "quietest",],
+  ["green", "greenest",],
+  ["dirty", "dirtiest",],
+  ["wild", "wildest",],
+  ["thin", "thinnest",],
+  ["tight", "tightest",],
+  ["keen", "keenest",],
+  ["fit", "fittest",],
+  ["severe", "severest",],
+  ["costly", "costliest",],
+  ["happy", "happiest",],
+  ["sticky", "stickiest",],
+  ["fond", "fondest",],
+  ["sincere", "sincerest",],
+  ["hearty", "heartiest",],
+  ["lengthy", "lengthiest",],
+  ["soft", "softest",],
+  ["clean", "cleanest",],
+  ["straight", "straightest",],
+  ["loud", "loudest",],
+  ["bold", "boldest",],
+  ["tricky", "trickiest",],
+  ["bleak", "bleakest",],
+  ["kind", "kindest",],
+  ["nice", "nicest",],
+
+  ['nice', 'nicest'],
+  ['late', 'latest'],
+  ['hard', 'hardest'],
+  ['inner', 'innermost'],
+  ['outer', 'outermost'],
+  ['far', 'furthest'],
+  ['worse', 'worst'],
+  ['bad', 'worst'],
+  ['good', 'best'],
+  ['big', 'biggest'],
+  ['large', 'largest'],
+
+
+  ["absurd", "absurdest"],
+  ["angry", "angriest"],
+  ["bad", "worst"],
+  ["bald", "baldest"],
+  ["bawdy", "bawdiest"],
+  ["big", "biggest"],
+  ["bitter", "bitterest"],
+  ["black", "blackest"],
+  ["bland", "blandest"],
+  ["blond", "blondest"],
+  ["bloody", "bloodiest"],
+  ["blue", "bluest"],
+  ["bold", "boldest"],
+  ["bouncy", "bounciest"],
+  ["brash", "brashest"],
+  ["brave", "bravest"],
+  ["brief", "briefest"],
+  ["brown", "brownest"],
+  ["burly", "burliest"],
+  ["busy", "busiest"],
+  ["calm", "calmest"],
+  ["cheap", "cheapest"],
+  ["cheesy", "cheesiest"],
+  ["chilly", "chilliest"],
+  ["clear", "clearest"],
+  ["clever", "cleverest"],
+  ["cloudy", "cloudiest"],
+  ["cold", "coldest"],
+  ["common", "commonest"],
+  ["cool", "coolest"],
+  ["costly", "costliest"],
+  ["cozy", "coziest"],
+  ["cruel", "cruelest"],
+  ["cuddly", "cuddliest"],
+  ["cute", "cutest"],
+  ["deadly", "deadliest"],
+  ["dear", "dearest"],
+  ["dense", "densest"],
+  ["dirty", "dirtiest"],
+  ["drunk", "drunkest"],
+  ["dull", "dullest"],
+  ["dumb", "dumbest"],
+  ["early", "earliest"],
+  ["earthly", "earthliest"],
+  ["eastern", "easternest"],
+  ["easy", "easiest"],
+  ["eerie", "eeriest"],
+  ["evil", "evilest"],
+  ["fair", "fairest"],
+  ["fake", "fakest"],
+  ["fancy", "fanciest"],
+  ["far", "furthest"],
+  ["faulty", "faultiest"],
+  ["feeble", "feeblest"],
+  ["fierce ", "fierce est"],
+  ["fierce", "fiercest"],
+  ["fine", "finest"],
+  ["foamy", "foamiest"],
+  ["foul", "foulest"],
+  ["frail", "frailest"],
+  ["friendly", "friendliest"],
+  ["full", "fullest"],
+  ["funny", "funniest"],
+  ["furry", "furriest"],
+  ["gaudy", "gaudiest"],
+  ["gay", "gayest"],
+  ["gentle", "gentlest"],
+  ["ghastly", "ghastliest"],
+  ["ghostly", "ghostliest"],
+  ["giant", "giantest"],
+  ["giddy", "giddiest"],
+  ["glad", "gladest"],
+  ["glib", "glibest"],
+  ["gloomy", "gloomiest"],
+  ["goofy", "goofiest"],
+  ["grand", "grandest"],
+  ["gray", "graiest"],
+  ["green", "greenest"],
+  ["grey", "greiest"],
+  ["grisly", "grisliest"],
+  ["groovy", "grooviest"],
+  ["gross", "grossest"],
+  ["handsome", "handsomest"],
+  ["happy", "happiest"],
+  ["harsh", "harshest"],
+  ["heavenly", "heavenliest"],
+  ["heavy", "heaviest"],
+  ["hefty", "heftiest"],
+  ["high", "highest"],
+  ["hilly", "hilliest"],
+  ["homely", "homeliest"],
+  ["hot", "hottest"],
+  ["huge", "hugest"],
+  ["humble", "humblest"],
+  ["humid", "humidest"],
+  ["hungry", "hungriest"],
+  ["ill", "illest"],
+  ["instant", "instantest"],
+  ["jolly", "jolliest"],
+  ["juicy", "juiciest"],
+  ["keen", "keenest"],
+  ["kind", "kindest"],
+  ["lame", "lamest"],
+  ["large", "largest"],
+  ["late", "latest"],
+  ["lewd", "lewdest"],
+  ["likely", "likeliest"],
+  ["little", "littlest"],
+  ["lively", "liveliest"],
+  ["lofty", "loftiest"],
+  ["lonely", "loneliest"],
+  ["long", "longest"],
+  ["loud", "loudest"],
+  ["lousy", "lousiest"],
+  ["lovely", "loveliest"],
+  ["low", "lowest"],
+  ["lowly", "lowliest"],
+  ["loyal", "loyalest"],
+  ["lucky", "luckiest"],
+  ["mean", "meanest"],
+  ["meek", "meekest"],
+  ["mellow", "mellowest"],
+  ["mild", "mildest"],
+  ["moody", "moodiest"],
+  ["narrow", "narrowest"],
+  ["near", "nearest"],
+  ["neat", "neattest"],
+  ["new", "newest"],
+  ["nice", "nicest"],
+  ["nimble", "nimblest"],
+  ["noble", "noblest"],
+  ["noisy", "noisiest"],
+  ["normal", "normalest"],
+  ["nosy", "nosiest"],
+  ["odd", "oddest"],
+  ["oily", "oiliest"],
+  ["old", "oldest"],
+  ["pale", "palest"],
+  ["phony", "phoniest"],
+  ["plain", "plainest"],
+  ["pleasant", "pleasantest"],
+  ["poor", "poorest"],
+  ["pricey", "priceiest"],
+  ["prickly", "prickliest"],
+  ["proud", "proudest"],
+  ["puny", "puniest"],
+  ["pure", "purest"],
+  ["quaint", "quaintest"],
+  ["random", "randomest"],
+  ["rapid", "rapidest"],
+  ["rare", "rarest"],
+  ["raw", "rawest"],
+  ["ready", "readiest"],
+  ["real", "realest"],
+  ["remote", "remotest"],
+  ["rich", "richest"],
+  ["ritzy", "ritziest"],
+  ["roomy", "roomiest"],
+  ["rosy", "rosiest"],
+  ["round", "roundest"],
+  ["rude", "rudest"],
+  ["safe", "safest"],
+  ["saintly", "saintliest"],
+  ["salty", "saltiest"],
+  ["savvy", "savviest"],
+  ["scary", "scariest"],
+  ["sexy", "sexiest"],
+  ["shady", "shadiest"],
+  ["shallow", "shallowest"],
+  ["shiny", "shiniest"],
+  ["shrill", "shrillest"],
+  ["shy", "shyest"],
+  ["silly", "silliest"],
+  ["simple", "simplest"],
+  ["skinny", "skinniest"],
+  ["sleek", "sleekest"],
+  ["slender", "slenderest"],
+  ["slight", "slightest"],
+  ["slim", "slimest"],
+  ["slimy", "slimiest"],
+  ["slow", "slowest"],
+  ["sly", "sliest"],
+  ["small", "smallest"],
+  ["smelly", "smelliest"],
+  ["solid", "solidest"],
+  ["soon", "soonest"],
+  ["sore", "sorest"],
+  ["spicy", "spiciest"],
+  ["sprightly", "sprightliest"],
+  ["square", "squarest"],
+  ["stark", "starkest"],
+  ["steady", "steadiest"],
+  ["stern", "sternest"],
+  ["strange", "strangest"],
+  ["strict", "strictest"],
+  ["strong", "strongest"],
+  ["stupid", "stupidest"],
+  ["sturdy", "sturdiest"],
+  ["subtle", "subtlest"],
+  ["sudden", "suddenest"],
+  ["swift", "swiftest"],
+  ["tall", "tallest"],
+  ["tame", "tamest"],
+  ["tart", "tartest"],
+  ["thirsty", "thirstiest"],
+  ["tidy", "tidiest"],
+  ["timely", "timeliest"],
+  ["tiny", "tiniest"],
+  ["tired", "tiredest"],
+  ["tranquil", "tranquilest"],
+  ["trendy", "trendiest"],
+  ["true", "truest"],
+  ["ugly", "ugliest"],
+  ["unlikely", "unlikeliest"],
+  ["untidy", "untidiest"],
+  ["vague", "vaguest"],
+  ["vulgar", "vulgarest"],
+  ["wary", "wariest"],
+  ["weary", "weariest"],
+  ["weird", "weirdest"],
+  ["wicked", "wickedest"],
+  ["wild", "wildest"],
+  ["wily", "wiliest"],
+  ["windy", "windiest"],
+  ["wiry", "wiriest"],
+  ["wise", "wisest"],
+  ["wry", "wriest"],
+  ["young", "youngest"],
+  ["zany", "zaniest"],
+  ["bright", "brightest"],
+  ["broad", "broadest"],
+  ["coarse", "coarsest"],
+  ["damp", "dampest"],
+  ["dark", "darkest"],
+  ["dead", "deadest"],
+  ["deep", "deepest"],
+  ["fast", "fastest"],
+  ["fat", "fattest"],
+  ["flat", "flattest"],
+  ["fresh", "freshest"],
+  ["great", "greattest"],
+  ["hard", "hardest"],
+  ["loose", "loosest"],
+  ["mad", "madest"],
+  ["quick", "quickest"],
+  ["quiet", "quiettest"],
+  ["red", "redest"],
+  ["ripe", "ripest"],
+  ["rough", "roughest"],
+  ["sad", "sadest"],
+  ["sharp", "sharpest"],
+  ["short", "shortest"],
+  ["sick", "sickest"],
+  ["smart", "smartest"],
+  ["soft", "softest"],
+  ["steep", "steepest"],
+  ["stiff", "stiffest"],
+  ["straight", "straightest"],
+  ["sweet", "sweettest"],
+  ["thick", "thickest"],
+  ["tight", "tightest"],
+  ["tough", "toughest"],
+  ["weak", "weakest"],
+  ["white", "whitest"],
+  ["wide", "widest"]
+
+
 ]

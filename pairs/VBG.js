@@ -1,7 +1,7 @@
 export default [
   ["including", "include", 27563],
   ["following", "follow", 18003],
-  ["being", "be", 16193],
+  ["being", "is", 16193],
   ["using", "use", 9684],
   ["working", "work", 9478],
   ["developing", "develop", 8260],

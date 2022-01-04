@@ -5,47 +5,170 @@ export default {
         "dically",
         "dical"
       ],
-      ["gically", "gical"],
-      ["hically", "hical"],
-      ["lically", "lic"],
-      ["mically", "mic"],
-      ["nically", "nical"],
-      ["rically", "rical"],
-      ["sically", "sical"],
-      ["tically", "tic"],
-      ["ically", "ical"],
-      ["gently", "gent"],
-      ["iefly", "ief"],
-      ["cally", "cal"],
-      ["fully", "ful"],
-      ["early", "ear"],
-      ["ently", "ent"],
-      ["idly", "id"],
-      ["mely", "me"],
-      ["ally", "al"],
-      ["arly", "ar"],
-      ["ntly", "nt"],
-      ["bly", "ble"],
-      ["dly", "d"],
-      ["ely", "e"],
-      ["gly", "g"],
-      ["hly", "h"],
-      ["ily", "y"],
-      ["kly", "k"],
-      ["lly", "l"],
-      ["mly", "m"],
-      ["nly", "n"],
-      ["ply", "p"],
-      ["rly", "r"],
-      ["sly", "s"],
-      ["tly", "t"],
-      ["uly", "ue"],
-      ["wly", "w"],
-      ["ay", "ay"],
-      ["by", "by"],
-      ["ny", "ny"],
-      ["ry", "ry"],
-      ["ty", "ty"]
+      [
+        "gically",
+        "gical"
+      ],
+      [
+        "hically",
+        "hical"
+      ],
+      [
+        "lically",
+        "lic"
+      ],
+      [
+        "mically",
+        "mic"
+      ],
+      [
+        "nically",
+        "nical"
+      ],
+      [
+        "rically",
+        "rical"
+      ],
+      [
+        "sically",
+        "sical"
+      ],
+      [
+        "tically",
+        "tic"
+      ],
+      [
+        "ically",
+        "ical"
+      ],
+      [
+        "gently",
+        "gent"
+      ],
+      [
+        "iefly",
+        "ief"
+      ],
+      [
+        "cally",
+        "cal"
+      ],
+      [
+        "fully",
+        "ful"
+      ],
+      [
+        "early",
+        "ear"
+      ],
+      [
+        "ently",
+        "ent"
+      ],
+      [
+        "idly",
+        "id"
+      ],
+      [
+        "mely",
+        "me"
+      ],
+      [
+        "ally",
+        "al"
+      ],
+      [
+        "arly",
+        "ar"
+      ],
+      [
+        "ntly",
+        "nt"
+      ],
+      [
+        "bly",
+        "ble"
+      ],
+      [
+        "dly",
+        "d"
+      ],
+      [
+        "ely",
+        "e"
+      ],
+      [
+        "gly",
+        "g"
+      ],
+      [
+        "hly",
+        "h"
+      ],
+      [
+        "ily",
+        "y"
+      ],
+      [
+        "kly",
+        "k"
+      ],
+      [
+        "lly",
+        "l"
+      ],
+      [
+        "mly",
+        "m"
+      ],
+      [
+        "nly",
+        "n"
+      ],
+      [
+        "ply",
+        "p"
+      ],
+      [
+        "rly",
+        "r"
+      ],
+      [
+        "sly",
+        "s"
+      ],
+      [
+        "tly",
+        "t"
+      ],
+      [
+        "uly",
+        "ue"
+      ],
+      [
+        "wly",
+        "w"
+      ],
+      [
+        "ay",
+        "ay"
+      ],
+      [
+        "by",
+        "by"
+      ],
+      [
+        "ny",
+        "ny"
+      ],
+      [
+        "ry",
+        "ry"
+      ],
+      [
+        "ty",
+        "ty"
+      ]
     ],
     "g": [
       [

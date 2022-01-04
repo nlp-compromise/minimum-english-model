@@ -1938,5 +1938,8 @@ export default [
   ["modulates", "modulate", 2],
   ["mutates", "mutate", 2],
   ["popularizes", "popularize", 2],
-  ["dismantles", "dismantle", 2]
+  ["dismantles", "dismantle", 2],
+  ["fuzzes", "fuzz"],
+  ["fizzes", "fizz"],
+  ["fizzles", "fizzle"],
 ]

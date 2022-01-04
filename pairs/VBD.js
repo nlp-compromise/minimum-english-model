@@ -1982,4 +1982,15 @@ export default [
   ['remade', 'remake'],
   ['snaked', 'snake'],
   ['mistook', 'mistake'],
+  ['snarled', 'snarl'],
+
+  ['uploaded', 'upload'],
+  ['sparred', 'spar'],
+  ['roared', 'roar'],
+  ['bloated', 'bloat'],
+  ['piled', 'pile'],
+  ['styled', 'style'],
+  ['whirled', 'whirl'],
+  ['nicknamed', 'nickname'],
+
 ]
