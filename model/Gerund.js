@@ -800,6 +800,7 @@ export default {
     "deleting": "delete",
     "depleting": "deplete",
     "secreting": "secrete",
+    "being": "is",
     "avoiding": "avoid",
     "aiding": "aid",
     "voiding": "void",
