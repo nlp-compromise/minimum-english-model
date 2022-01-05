@@ -8,6 +8,7 @@ import VBD from '../pairs/VBD.js'
 import VBG from '../pairs/VBG.js'
 import VBN from '../pairs/VBN.js'
 import VBZ from '../pairs/VBZ.js'
+import NNS from '../pairs/NNS.js'
 
 const allRules = (model) => {
   let arr = []
@@ -41,6 +42,7 @@ const compute = function (wordPairs, tag) {
 }
 
 
+compute(NNS, 'NNS')
 compute(JJR, 'JJR')
 compute(JJS, 'JJS')
 compute(RB, 'RB')

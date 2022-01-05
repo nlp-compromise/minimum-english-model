@@ -1,30 +1,90 @@
 export default {
   "rules": {
     "d": [
-      ["oud", "ouder"],
-      ["ed", "eder"],
-      ["id", "ider"],
-      ["ld", "lder"],
-      ["nd", "nder"],
-      ["rd", "rder"]
+      [
+        "oud",
+        "ouder"
+      ],
+      [
+        "ed",
+        "eder"
+      ],
+      [
+        "id",
+        "ider"
+      ],
+      [
+        "ld",
+        "lder"
+      ],
+      [
+        "nd",
+        "nder"
+      ],
+      [
+        "rd",
+        "rder"
+      ]
     ],
     "r": [
-      ["ar", "arer"],
-      ["er", "er"]
+      [
+        "ar",
+        "arer"
+      ],
+      [
+        "er",
+        "er"
+      ]
     ],
     "y": [
-      ["cy", "cier"],
-      ["dy", "dier"],
-      ["hy", "hier"],
-      ["ky", "kier"],
-      ["ly", "lier"],
-      ["my", "mier"],
-      ["ny", "nier"],
-      ["ry", "rier"],
-      ["sy", "sier"],
-      ["ty", "tier"],
-      ["vy", "vier"],
-      ["zy", "zier"]
+      [
+        "cy",
+        "cier"
+      ],
+      [
+        "dy",
+        "dier"
+      ],
+      [
+        "hy",
+        "hier"
+      ],
+      [
+        "ky",
+        "kier"
+      ],
+      [
+        "ly",
+        "lier"
+      ],
+      [
+        "my",
+        "mier"
+      ],
+      [
+        "ny",
+        "nier"
+      ],
+      [
+        "ry",
+        "rier"
+      ],
+      [
+        "sy",
+        "sier"
+      ],
+      [
+        "ty",
+        "tier"
+      ],
+      [
+        "vy",
+        "vier"
+      ],
+      [
+        "zy",
+        "zier"
+      ]
     ],
     "b": [
       [
@@ -132,26 +192,18 @@ export default {
     "fierce": "fiercer",
     "dull": "duller",
     "eerie": "eerier",
-    "extreme": "extremer",
     "feeble": "feebler",
-    "fierce ": "fierce er",
     "gay": "gaier",
     "genuine": "genuiner",
     "glad": "glader",
     "goofy": "goofier",
     "gray": "grayer",
-    "grey": "greyer",
     "gross": "grosser",
     "gruesome": "gruesomer",
-    "hesitant": "hesitanter",
     "ill": "iller",
-    "instant": "instanter",
-    "intellegent": "intellegenter",
-    "intermediate": "intermediater",
     "lewd": "lewder",
     "odd": "odder",
     "remote": "remoter",
-    "romantic": "romanticer",
     "sexy": "sexier",
     "shrill": "shriller",
     "tart": "tarter",
@@ -192,7 +244,6 @@ export default {
     "handsome": "handsomer",
     "huge": "huger",
     "humble": "humbler",
-    "intimate": "intimater",
     "lame": "lamer",
     "little": "littler",
     "nimble": "nimbler",

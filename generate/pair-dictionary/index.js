@@ -4,13 +4,13 @@ import fs from 'fs'
 
 let ids = []
 // const max = 226
-for (let i = 2; i <= 15; i += 1) {
+for (let i = 2; i <= 25; i += 1) {
   let str = String(i).padStart(4, '0')
   ids.push(str)
 }
 // ids = ['0004']
 
-const tag = 'JJS'
+const tag = 'NNS'
 // const tag = 'VBN'
 // const tag = 'JJR'
 

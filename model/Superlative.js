@@ -1,46 +1,126 @@
 export default {
   "rules": {
     "t": [
-      ["ight", "ightest"],
-      ["ft", "ftest"],
-      ["nt", "ntest"],
-      ["rt", "rtest"],
-      ["st", "st"]
+      [
+        "ight",
+        "ightest"
+      ],
+      [
+        "ft",
+        "ftest"
+      ],
+      [
+        "nt",
+        "ntest"
+      ],
+      [
+        "rt",
+        "rtest"
+      ],
+      [
+        "st",
+        "st"
+      ]
     ],
     "d": [
-      ["oud", "oudest"],
-      ["ed", "edest"],
-      ["id", "idest"],
-      ["ld", "ldest"],
-      ["nd", "ndest"],
-      ["rd", "rdest"]
+      [
+        "oud",
+        "oudest"
+      ],
+      [
+        "ed",
+        "edest"
+      ],
+      [
+        "id",
+        "idest"
+      ],
+      [
+        "ld",
+        "ldest"
+      ],
+      [
+        "nd",
+        "ndest"
+      ],
+      [
+        "rd",
+        "rdest"
+      ]
     ],
     "r": [
-      ["ear", "earest"]
+      [
+        "ear",
+        "earest"
+      ]
     ],
     "y": [
-      ["thy", "thiest"],
-      ["cy", "ciest"],
-      ["dy", "diest"],
-      ["ey", "eiest"],
-      ["ky", "kiest"],
-      ["ly", "liest"],
-      ["my", "miest"],
-      ["ny", "niest"],
-      ["ry", "riest"],
-      ["sy", "siest"],
-      ["ty", "tiest"],
-      ["vy", "viest"],
-      ["zy", "ziest"]
+      [
+        "thy",
+        "thiest"
+      ],
+      [
+        "cy",
+        "ciest"
+      ],
+      [
+        "dy",
+        "diest"
+      ],
+      [
+        "ky",
+        "kiest"
+      ],
+      [
+        "ly",
+        "liest"
+      ],
+      [
+        "my",
+        "miest"
+      ],
+      [
+        "ny",
+        "niest"
+      ],
+      [
+        "ry",
+        "riest"
+      ],
+      [
+        "sy",
+        "siest"
+      ],
+      [
+        "ty",
+        "tiest"
+      ],
+      [
+        "vy",
+        "viest"
+      ],
+      [
+        "zy",
+        "ziest"
+      ]
     ],
     "b": [
-      ["b", "best"]
+      [
+        "b",
+        "best"
+      ]
     ],
     "e": [
-      ["e", "est"]
+      [
+        "e",
+        "est"
+      ]
     ],
     "f": [
-      ["f", "fest"]
+      [
+        "f",
+        "fest"
+      ]
     ],
     "g": [
       [
@@ -123,19 +203,20 @@ export default {
     "dull": "dullest",
     "eerie": "eeriest",
     "feeble": "feeblest",
-    "fierce ": "fierce est",
     "fierce": "fiercest",
     "gay": "gayest",
     "gentle": "gentlest",
     "glad": "gladest",
     "goofy": "goofiest",
     "gray": "graiest",
+    "grey": "greyest",
     "gross": "grossest",
     "ill": "illest",
     "lewd": "lewdest",
     "loyal": "loyalest",
     "neat": "neattest",
     "odd": "oddest",
+    "pricey": "priciest",
     "remote": "remotest",
     "sexy": "sexiest",
     "shrill": "shrillest",

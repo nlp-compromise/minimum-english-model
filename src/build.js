@@ -1,7 +1,7 @@
-import { learn, convert, compress, uncompress } from '/Users/spencer/mountain/suffix-thumb/src/index.js'
-import fileSize from './fileSize.js'
+import { learn } from '/Users/spencer/mountain/suffix-thumb/src/index.js'
 import fs from 'fs'
 
+import NNS from '../pairs/NNS.js'
 import JJR from '../pairs/JJR.js'
 import JJS from '../pairs/JJS.js'
 import RB from '../pairs/RB.js'
@@ -31,6 +31,7 @@ const compute = function (wordPairs, tag) {
 }
 
 
+compute(NNS, 'Plural')
 compute(JJR, 'Comparative')
 compute(JJS, 'Superlative')
 compute(RB, 'Adverb')
