@@ -896,7 +896,6 @@ export default [
   ["expertly", "expert"],
   ["relentlessly", "relentless"],
   ["preferentially", "preferential"],
-  ["ay", "ay"],
   ["inefficiently", "inefficient"],
   ["purposefully", "purposeful"],
   ["opportunistically", "opportunistic"],
