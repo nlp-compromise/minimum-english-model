@@ -1,4 +1,4 @@
-[
+export default [
   "be",
   "have",
   "will",

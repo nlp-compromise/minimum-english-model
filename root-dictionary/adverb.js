@@ -1,4 +1,4 @@
-[
+export default [
   "not",
   "also",
   "well",

@@ -1,4 +1,4 @@
-[
+export default [
   "use",
   "report",
   "work",
@@ -230,21 +230,8 @@
   "combat",
   "speed",
   "safeguard",
-  "couple",
-  "wind",
-  "log",
-  "filter",
-  "witness",
-  "broadcast",
-  "extract",
-  "encounter",
-  "mine",
-  "ban",
-  "merit",
-  "upgrade",
-  "experiment",
-  "honour",
-  "promise",
+
+
   "repeat",
   "implant",
   "strike",
@@ -280,6 +267,9 @@
   "breach",
   "insert",
   "camp",
+
+
+
   "tender",
   "push",
   "disadvantage",

@@ -2901,5 +2901,20 @@ export default [
   ["inoculating", "inoculate", 2],
   ["alarming", "alarm", 2],
   ["depolarizing", "depolarize", 2],
-  ["crying", "cry", 2]
+  ["crying", "cry", 2],
+
+  ["aching", "ache"],
+  ["glaring", "glare"],
+  ["stunning", "stun"],
+
+  // bang
+  ["blitz", "blitzing"],
+  ["boss", "bossing"],
+  ["cross", "crossing"],
+  ["fuzz", "fuzzing"],
+  ["gas", "gassing"],
+  ["gloss", "glossing"],
+  ["mess", "messing"],
+  ["smell", "smelling"],
+  ["yell", "yelling"],
 ]

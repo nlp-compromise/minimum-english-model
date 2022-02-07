@@ -1,14 +1,9 @@
-[
+export default [
   "canadian",
   "public",
   "good",
   "total",
-  "individual",
-  "standard",
-  "official",
-  "subject",
-  "patient",
-  "potential",
+
   "future",
   "professional",
   "average",
