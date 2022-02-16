@@ -2908,13 +2908,13 @@ export default [
   ["stunning", "stun"],
 
   // bang
-  ["blitz", "blitzing"],
-  ["boss", "bossing"],
-  ["cross", "crossing"],
-  ["fuzz", "fuzzing"],
-  ["gas", "gassing"],
-  ["gloss", "glossing"],
-  ["mess", "messing"],
-  ["smell", "smelling"],
-  ["yell", "yelling"],
+  ["blitzing", "blitz"],
+  ["bossing", "boss"],
+  ["crossing", "cross"],
+  ["fuzzing", "fuzz"],
+  ["gassing", "gas"],
+  ["glossing", "gloss"],
+  ["messing", "mess"],
+  ["smelling", "smell"],
+  ["yelling", "yell"],
 ]
